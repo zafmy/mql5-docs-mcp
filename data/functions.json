@@ -1,0 +1,3555 @@
+[
+ {
+  "name": "AccountInfoDouble",
+  "section": "Account Information",
+  "signatures": [
+   "double AccountInfoDouble(ENUM_ACCOUNT_INFO_DOUBLE property_id)"
+  ],
+  "url": "https://www.mql5.com/en/docs/account/accountinfodouble"
+ },
+ {
+  "name": "AccountInfoInteger",
+  "section": "Account Information",
+  "signatures": [
+   "long AccountInfoInteger(ENUM_ACCOUNT_INFO_INTEGER property_id)"
+  ],
+  "url": "https://www.mql5.com/en/docs/account/accountinfointeger"
+ },
+ {
+  "name": "AccountInfoString",
+  "section": "Account Information",
+  "signatures": [
+   "string AccountInfoString(ENUM_ACCOUNT_INFO_STRING property_id)"
+  ],
+  "url": "https://www.mql5.com/en/docs/account/accountinfostring"
+ },
+ {
+  "name": "acos",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathArccos(double val)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/matharccos"
+ },
+ {
+  "name": "Alert",
+  "section": "Common Functions",
+  "signatures": [
+   "void Alert(argument, ...)"
+  ],
+  "url": "https://www.mql5.com/en/docs/common/alert"
+ },
+ {
+  "name": "ArrayBsearch",
+  "section": "Array Functions",
+  "signatures": [
+   "int ArrayBsearch(const double& array[], double value)",
+   "int ArrayBsearch(const float& array[], float value)",
+   "int ArrayBsearch(const long& array[], long value)",
+   "int ArrayBsearch(const int& array[], int value)",
+   "int ArrayBsearch(const short& array[], short value)",
+   "int ArrayBsearch(const char& array[], char value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arraybsearch"
+ },
+ {
+  "name": "ArrayCompare",
+  "section": "Array Functions",
+  "signatures": [
+   "int ArrayCompare(const void& array1[], const void& array2[], int start1=0, int start2=0, int count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arraycompare"
+ },
+ {
+  "name": "ArrayCopy",
+  "section": "Array Functions",
+  "signatures": [
+   "int ArrayCopy(void& dst_array[], const void& src_array[], int dst_start=0, int src_start=0, int count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arraycopy"
+ },
+ {
+  "name": "ArrayFill",
+  "section": "Array Functions",
+  "signatures": [
+   "void ArrayFill(void& array[], int start, int count, void value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayfill"
+ },
+ {
+  "name": "ArrayFree",
+  "section": "Array Functions",
+  "signatures": [
+   "void ArrayFree(void& array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayfree"
+ },
+ {
+  "name": "ArrayGetAsSeries",
+  "section": "Array Functions",
+  "signatures": [
+   "bool ArrayGetAsSeries(const void& array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arraygetasseries"
+ },
+ {
+  "name": "ArrayInitialize",
+  "section": "Array Functions",
+  "signatures": [
+   "int ArrayInitialize(char array[], char value)",
+   "int ArrayInitialize(short array[], short value)",
+   "int ArrayInitialize(int array[], int value)",
+   "int ArrayInitialize(long array[], long value)",
+   "int ArrayInitialize(float array[], float value)",
+   "int ArrayInitialize(double array[], double value)",
+   "int ArrayInitialize(bool array[], bool value)",
+   "int ArrayInitialize(uint array[], uint value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayinitialize"
+ },
+ {
+  "name": "ArrayIsDynamic",
+  "section": "Array Functions",
+  "signatures": [
+   "bool ArrayIsDynamic(const void& array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayisdynamic"
+ },
+ {
+  "name": "ArrayIsSeries",
+  "section": "Array Functions",
+  "signatures": [
+   "bool ArrayIsSeries(const void& array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayisseries"
+ },
+ {
+  "name": "ArrayMaximum",
+  "section": "Array Functions",
+  "signatures": [
+   "int ArrayMaximum(const void& array[], int start=0, int count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arraymaximum"
+ },
+ {
+  "name": "ArrayMinimum",
+  "section": "Array Functions",
+  "signatures": [
+   "int ArrayMinimum(const void& array[], int start=0, int count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayminimum"
+ },
+ {
+  "name": "ArrayRange",
+  "section": "Array Functions",
+  "signatures": [
+   "int ArrayRange(const void& array[], int rank_index)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayrange"
+ },
+ {
+  "name": "ArrayResize",
+  "section": "Array Functions",
+  "signatures": [
+   "int ArrayResize(void& array[], int new_size, int reserve_size=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayresize"
+ },
+ {
+  "name": "ArraySetAsSeries",
+  "section": "Array Functions",
+  "signatures": [
+   "bool ArraySetAsSeries(const void& array[], bool flag)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arraysetasseries"
+ },
+ {
+  "name": "ArraySize",
+  "section": "Array Functions",
+  "signatures": [
+   "int ArraySize(const void& array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arraysize"
+ },
+ {
+  "name": "ArraySort",
+  "section": "Array Functions",
+  "signatures": [
+   "bool ArraySort(void& array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arraysort"
+ },
+ {
+  "name": "ArrayPrint",
+  "section": "Array Functions",
+  "signatures": [
+   "void ArrayPrint(const void& array[], uint digits=_Digits, const string separator=NULL, ulong start=0, ulong count=WHOLE_ARRAY, ulong flags=ARRAYPRINT_HEADER|ARRAYPRINT_INDEX|ARRAYPRINT_LIMIT|ARRAYPRINT_ALIGN)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayprint"
+ },
+ {
+  "name": "ArrayInsert",
+  "section": "Array Functions",
+  "signatures": [
+   "bool ArrayInsert(void& dst_array[], const void& src_array[], uint dst_start, uint src_start=0, uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayinsert"
+ },
+ {
+  "name": "ArrayRemove",
+  "section": "Array Functions",
+  "signatures": [
+   "bool ArrayRemove(void& array[], uint start, uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayremove"
+ },
+ {
+  "name": "ArrayReverse",
+  "section": "Array Functions",
+  "signatures": [
+   "bool ArrayReverse(void& array[], uint start=0, uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/array_reverse"
+ },
+ {
+  "name": "ArraySwap",
+  "section": "Array Functions",
+  "signatures": [
+   "bool ArraySwap(void& array1[], void& array2[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/array/arrayswap"
+ },
+ {
+  "name": "asin",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathArcsin(double val)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/matharcsin"
+ },
+ {
+  "name": "atan",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathArctan(double value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/matharctan"
+ },
+ {
+  "name": "Bars",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int Bars(string symbol_name, ENUM_TIMEFRAMES timeframe)",
+   "int Bars(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, datetime stop_time)"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/bars"
+ },
+ {
+  "name": "BarsCalculated",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int BarsCalculated(int indicator_handle,)"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/barscalculated"
+ },
+ {
+  "name": "CalendarCountryById",
+  "section": "Economic Calendar",
+  "signatures": [
+   "bool CalendarCountryById(const long country_id, MqlCalendarCountry& country)"
+  ],
+  "url": "https://www.mql5.com/en/docs/calendar/calendarcountrybyid"
+ },
+ {
+  "name": "CalendarEventById",
+  "section": "Economic Calendar",
+  "signatures": [
+   "bool CalendarEventById(ulong event_id, MqlCalendarEvent& event)"
+  ],
+  "url": "https://www.mql5.com/en/docs/calendar/calendareventbyid"
+ },
+ {
+  "name": "CalendarValueById",
+  "section": "Economic Calendar",
+  "signatures": [
+   "bool CalendarValueById(ulong value_id, MqlCalendarValue& value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/calendar/calendarvaluebyid"
+ },
+ {
+  "name": "CalendarCountries",
+  "section": "Economic Calendar",
+  "signatures": [
+   "int CalendarCountries(MqlCalendarCountry& countries[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/calendar/calendarcountries"
+ },
+ {
+  "name": "CalendarEventByCountry",
+  "section": "Economic Calendar",
+  "signatures": [
+   "int CalendarEventByCountry(string country_code, MqlCalendarEvent& events[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/calendar/calendareventbycountry"
+ },
+ {
+  "name": "CalendarEventByCurrency",
+  "section": "Economic Calendar",
+  "signatures": [
+   "int CalendarEventByCurrency(const string currency, MqlCalendarEvent& events[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/calendar/calendareventbycurrency"
+ },
+ {
+  "name": "CalendarValueHistoryByEvent",
+  "section": "Economic Calendar",
+  "signatures": [
+   "int CalendarValueHistoryByEvent(ulong event_id, MqlCalendarValue& values[], datetime datetime_from, datetime datetime_to=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/calendar/calendarvaluehistorybyevent"
+ },
+ {
+  "name": "CalendarValueHistory",
+  "section": "Economic Calendar",
+  "signatures": [
+   "int CalendarValueHistory(MqlCalendarValue& values[], datetime datetime_from, datetime datetime_to=0 const string country_code=NULL, const string currency=NULL)"
+  ],
+  "url": "https://www.mql5.com/en/docs/calendar/calendarvaluehistory"
+ },
+ {
+  "name": "CalendarValueLastByEvent",
+  "section": "Economic Calendar",
+  "signatures": [
+   "int CalendarValueLastByEvent(ulong event_id, ulong& change_id, MqlCalendarValue& values[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/calendar/calendarvaluelastbyevent"
+ },
+ {
+  "name": "CalendarValueLast",
+  "section": "Economic Calendar",
+  "signatures": [
+   "int CalendarValueLast(ulong& change_id, MqlCalendarValue& values[], const string country_code=NULL, const string currency=NULL)"
+  ],
+  "url": "https://www.mql5.com/en/docs/calendar/calendarvaluelast"
+ },
+ {
+  "name": "ceil",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathCeil(double val)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/mathceil"
+ },
+ {
+  "name": "CharArrayToString",
+  "section": "Conversion Functions",
+  "signatures": [
+   "string CharArrayToString(uchar array[], int start=0, int count=-1 uint codepage=CP_ACP)"
+  ],
+  "url": "https://www.mql5.com/en/docs/convert/chararraytostring"
+ },
+ {
+  "name": "ChartApplyTemplate",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartApplyTemplate(long chart_id, const string filename)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartapplytemplate"
+ },
+ {
+  "name": "ChartClose",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartClose(long chart_id=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartclose"
+ },
+ {
+  "name": "ChartFirst",
+  "section": "Chart Operations",
+  "signatures": [
+   "long ChartFirst()"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartfirst"
+ },
+ {
+  "name": "ChartGetDouble",
+  "section": "Chart Operations",
+  "signatures": [
+   "double ChartGetDouble(long chart_id, ENUM_CHART_PROPERTY_DOUBLE prop_id, int sub_window=0)",
+   "bool ChartGetDouble(long chart_id, ENUM_CHART_PROPERTY_DOUBLE prop_id, int sub_window, double& double_var)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartgetdouble"
+ },
+ {
+  "name": "ChartGetInteger",
+  "section": "Chart Operations",
+  "signatures": [
+   "long ChartGetInteger(long chart_id, ENUM_CHART_PROPERTY_INTEGER prop_id, int sub_window=0)",
+   "bool ChartGetInteger(long chart_id, ENUM_CHART_PROPERTY_INTEGER prop_id, int sub_window=0 long& long_var)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartgetinteger"
+ },
+ {
+  "name": "ChartGetString",
+  "section": "Chart Operations",
+  "signatures": [
+   "string ChartGetString(long chart_id, ENUM_CHART_PROPERTY_STRING prop_id)",
+   "bool ChartGetString(long chart_id, ENUM_CHART_PROPERTY_STRING prop_id, string& string_var)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartgetstring"
+ },
+ {
+  "name": "ChartID",
+  "section": "Chart Operations",
+  "signatures": [
+   "long ChartID()"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartid"
+ },
+ {
+  "name": "ChartIndicatorAdd",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartIndicatorAdd(long chart_id, int sub_window int indicator_handle)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartindicatoradd"
+ },
+ {
+  "name": "ChartIndicatorDelete",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartIndicatorDelete(long chart_id, int sub_window const string indicator_shortname)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartindicatordelete"
+ },
+ {
+  "name": "ChartIndicatorGet",
+  "section": "Chart Operations",
+  "signatures": [
+   "int ChartIndicatorGet(long chart_id, int sub_window const string indicator_shortname)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartindicatorget"
+ },
+ {
+  "name": "ChartIndicatorName",
+  "section": "Chart Operations",
+  "signatures": [
+   "string ChartIndicatorName(long chart_id, int sub_window int index)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartindicatorname"
+ },
+ {
+  "name": "ChartIndicatorsTotal",
+  "section": "Chart Operations",
+  "signatures": [
+   "int ChartIndicatorsTotal(long chart_id, int sub_window)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartindicatorstotal"
+ },
+ {
+  "name": "ChartNavigate",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartNavigate(long chart_id, ENUM_CHART_POSITION position, int shift=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartnavigate"
+ },
+ {
+  "name": "ChartNext",
+  "section": "Chart Operations",
+  "signatures": [
+   "long ChartNext(long chart_id)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartnext"
+ },
+ {
+  "name": "ChartOpen",
+  "section": "Chart Operations",
+  "signatures": [
+   "long ChartOpen(string symbol, ENUM_TIMEFRAMES period)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartopen"
+ },
+ {
+  "name": "CharToString",
+  "section": "Conversion Functions",
+  "signatures": [
+   "string CharToString(uchar char_code)"
+  ],
+  "url": "https://www.mql5.com/en/docs/convert/chartostring"
+ },
+ {
+  "name": "ChartPeriod",
+  "section": "Chart Operations",
+  "signatures": [
+   "ENUM_TIMEFRAMES ChartPeriod(long chart_id=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartperiod"
+ },
+ {
+  "name": "ChartPriceOnDropped",
+  "section": "Chart Operations",
+  "signatures": [
+   "double ChartPriceOnDropped()"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartpriceondropped"
+ },
+ {
+  "name": "ChartRedraw",
+  "section": "Chart Operations",
+  "signatures": [
+   "void ChartRedraw(long chart_id=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartredraw"
+ },
+ {
+  "name": "ChartSaveTemplate",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartSaveTemplate(long chart_id, const string filename)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartsavetemplate"
+ },
+ {
+  "name": "ChartScreenShot",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartScreenShot(long chart_id, string filename, int width, int height, ENUM_ALIGN_MODE align_mode=ALIGN_RIGHT)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartscreenshot"
+ },
+ {
+  "name": "ChartSetDouble",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartSetDouble(long chart_id, ENUM_CHART_PROPERTY_DOUBLE prop_id, double value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartsetdouble"
+ },
+ {
+  "name": "ChartSetInteger",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartSetInteger(long chart_id, ENUM_CHART_PROPERTY_INTEGER prop_id, long value)",
+   "bool ChartSetInteger(long chart_id, ENUM_CHART_PROPERTY_INTEGER prop_id, int sub_window, long value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartsetinteger"
+ },
+ {
+  "name": "ChartSetString",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartSetString(long chart_id, ENUM_CHART_PROPERTY_STRING prop_id, string str_value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartsetstring"
+ },
+ {
+  "name": "ChartSetSymbolPeriod",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartSetSymbolPeriod(long chart_id, string symbol, ENUM_TIMEFRAMES period)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartsetsymbolperiod"
+ },
+ {
+  "name": "ChartSymbol",
+  "section": "Chart Operations",
+  "signatures": [
+   "string ChartSymbol(long chart_id=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartsymbol"
+ },
+ {
+  "name": "ChartTimeOnDropped",
+  "section": "Chart Operations",
+  "signatures": [
+   "datetime ChartTimeOnDropped()"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/charttimeondropped"
+ },
+ {
+  "name": "ChartTimePriceToXY",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartTimePriceToXY(long chart_id, int sub_window, datetime time, double price, int& x, int& y)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/charttimepricetoxy"
+ },
+ {
+  "name": "ChartWindowFind",
+  "section": "Chart Operations",
+  "signatures": [
+   "int ChartWindowFind()"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartwindowfind"
+ },
+ {
+  "name": "ChartWindowOnDropped",
+  "section": "Chart Operations",
+  "signatures": [
+   "int ChartWindowOnDropped()"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartwindowondropped"
+ },
+ {
+  "name": "ChartXOnDropped",
+  "section": "Chart Operations",
+  "signatures": [
+   "int ChartXOnDropped()"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartxondropped"
+ },
+ {
+  "name": "ChartXYToTimePrice",
+  "section": "Chart Operations",
+  "signatures": [
+   "bool ChartXYToTimePrice(long chart_id, int x, int y, int& sub_window, datetime& time, double& price)"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartxytotimeprice"
+ },
+ {
+  "name": "ChartYOnDropped",
+  "section": "Chart Operations",
+  "signatures": [
+   "int ChartYOnDropped()"
+  ],
+  "url": "https://www.mql5.com/en/docs/chart_operations/chartyondropped"
+ },
+ {
+  "name": "CheckPointer",
+  "section": "Common Functions",
+  "signatures": [
+   "ENUM_POINTER_TYPE CheckPointer(object* anyobject)"
+  ],
+  "url": "https://www.mql5.com/en/docs/common/checkpointer"
+ },
+ {
+  "name": "CLBufferCreate",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "int CLBufferCreate(int context, uint size, uint flags)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clbuffercreate"
+ },
+ {
+  "name": "CLBufferFree",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "void CLBufferFree(int buffer)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clbufferfree"
+ },
+ {
+  "name": "CLBufferRead",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "uint CLBufferRead(int buffer, const void& data[], uint buffer_offset=0, uint data_offset=0, uint data_count=WHOLE_ARRAY)",
+   "uint CLBufferRead(int buffer, uint buffer_offset, const matrix& mat, ulong rows=-1, ulong cols=-1)",
+   "uint CLBufferRead(int buffer, uint buffer_offset, const vector& vec, ulong size-1,)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clbufferread"
+ },
+ {
+  "name": "CLBufferWrite",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "uint CLBufferWrite(int buffer, const void& data[], uint buffer_offset=0, uint data_offset=0, uint data_count=WHOLE_ARRAY)",
+   "uint CLBufferWrite(int buffer, uint buffer_offset, matrix<T> &mat)",
+   "uint CLBufferWrite(int buffer, uint buffer_offset, vector<T> &vec)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clbufferwrite"
+ },
+ {
+  "name": "CLContextCreate",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "int CLContextCreate(int device=CL_USE_ANY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clcontextcreate"
+ },
+ {
+  "name": "CLContextFree",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "void CLContextFree(int context)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clcontextfree"
+ },
+ {
+  "name": "CLExecute",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "bool CLExecute(int kernel)",
+   "bool CLExecute(int kernel, uint work_dim, const uint& global_work_offset[], const uint& global_work_size[])",
+   "bool CLExecute(int kernel, uint work_dim, const uint& global_work_offset[], const uint& global_work_size[], const uint& local_work_size[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clexecute"
+ },
+ {
+  "name": "CLGetDeviceInfo",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "bool CLGetDeviceInfo(int handle, int property_id, uchar& data[], uint& size)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clgetdeviceinfo"
+ },
+ {
+  "name": "CLGetInfoInteger",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "long CLGetInfoInteger(int handle, ENUM_OPENCL_PROPERTY_INTEGER prop)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clgetinfointeger"
+ },
+ {
+  "name": "CLHandleType",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "ENUM_OPENCL_HANDLE_TYPE CLHandleType(int handle)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clhandletype"
+ },
+ {
+  "name": "CLKernelCreate",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "int CLKernelCreate(int program, const string kernel_name)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clkernelcreate"
+ },
+ {
+  "name": "CLKernelFree",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "void CLKernelFree(int kernel)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clkernelfree"
+ },
+ {
+  "name": "CLProgramCreate",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "int CLProgramCreate(int context, const string source)",
+   "int CLProgramCreate(int context, const string source, string &build_log)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clprogramcreate"
+ },
+ {
+  "name": "CLProgramFree",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "void CLProgramFree(int program)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clprogramfree"
+ },
+ {
+  "name": "CLSetKernelArg",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "bool CLSetKernelArg(int kernel, uint arg_index, void arg_value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clsetkernelarg"
+ },
+ {
+  "name": "CLSetKernelArgMem",
+  "section": "Working with OpenCL",
+  "signatures": [
+   "bool CLSetKernelArgMem(int kernel, uint arg_index, int cl_mem_handle)"
+  ],
+  "url": "https://www.mql5.com/en/docs/opencl/clsetkernelargmem"
+ },
+ {
+  "name": "ColorToARGB",
+  "section": "Conversion Functions",
+  "signatures": [
+   "uint ColorToARGB(color clr, uchar alpha=255)"
+  ],
+  "url": "https://www.mql5.com/en/docs/convert/colortoargb"
+ },
+ {
+  "name": "ColorToString",
+  "section": "Conversion Functions",
+  "signatures": [
+   "string ColorToString(color color_value, bool color_name)"
+  ],
+  "url": "https://www.mql5.com/en/docs/convert/colortostring"
+ },
+ {
+  "name": "Comment",
+  "section": "Common Functions",
+  "signatures": [
+   "void Comment(argument, ...)"
+  ],
+  "url": "https://www.mql5.com/en/docs/common/comment"
+ },
+ {
+  "name": "CopyBuffer",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int CopyBuffer(int indicator_handle, int buffer_num, int start_pos, int count, double buffer[])",
+   "int CopyBuffer(int indicator_handle, int buffer_num, datetime start_time, int count, double buffer[])",
+   "int CopyBuffer(int indicator_handle, int buffer_num, datetime start_time, datetime stop_time, double buffer[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/copybuffer"
+ },
+ {
+  "name": "CopyClose",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int CopyClose(string symbol_name, ENUM_TIMEFRAMES timeframe, int start_pos, int count, double close_array[])",
+   "int CopyClose(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, int count, double close_array[])",
+   "int CopyClose(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, datetime stop_time, double close_array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/copyclose"
+ },
+ {
+  "name": "CopyHigh",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int CopyHigh(string symbol_name, ENUM_TIMEFRAMES timeframe, int start_pos, int count, double high_array[])",
+   "int CopyHigh(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, int count, double high_array[])",
+   "int CopyHigh(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, datetime stop_time, double high_array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/copyhigh"
+ },
+ {
+  "name": "CopyLow",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int CopyLow(string symbol_name, ENUM_TIMEFRAMES timeframe, int start_pos, int count, double low_array[])",
+   "int CopyLow(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, int count, double low_array[])",
+   "int CopyLow(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, datetime stop_time, double low_array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/copylow"
+ },
+ {
+  "name": "CopyOpen",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int CopyOpen(string symbol_name, ENUM_TIMEFRAMES timeframe, int start_pos, int count, double open_array[])",
+   "int CopyOpen(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, int count, double open_array[])",
+   "int CopyOpen(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, datetime stop_time, double open_array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/copyopen"
+ },
+ {
+  "name": "CopyRates",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int CopyRates(string symbol_name, ENUM_TIMEFRAMES timeframe, int start_pos, int count, MqlRates rates_array[])",
+   "int CopyRates(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, int count, MqlRates rates_array[])",
+   "int CopyRates(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, datetime stop_time, MqlRates rates_array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/copyrates"
+ },
+ {
+  "name": "CopyRealVolume",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int CopyRealVolume(string symbol_name, ENUM_TIMEFRAMES timeframe, int start_pos, int count, long volume_array[])",
+   "int CopyRealVolume(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, int count, long volume_array[])",
+   "int CopyRealVolume(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, datetime stop_time, long volume_array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/copyrealvolume"
+ },
+ {
+  "name": "CopySpread",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int CopySpread(string symbol_name, ENUM_TIMEFRAMES timeframe, int start_pos, int count, int spread_array[])",
+   "int CopySpread(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, int count, int spread_array[])",
+   "int CopySpread(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, datetime stop_time, int spread_array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/copyspread"
+ },
+ {
+  "name": "CopyTicks",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int CopyTicks(string symbol_name, MqlTick& ticks_array[], uint flags=COPY_TICKS_ALL, ulong from=0, uint count=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/copyticks"
+ },
+ {
+  "name": "CopyTickVolume",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int CopyTickVolume(string symbol_name, ENUM_TIMEFRAMES timeframe, int start_pos, int count, long volume_array[])",
+   "int CopyTickVolume(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, int count, long volume_array[])",
+   "int CopyTickVolume(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, datetime stop_time, long volume_array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/copytickvolume"
+ },
+ {
+  "name": "CopyTime",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [
+   "int CopyTime(string symbol_name, ENUM_TIMEFRAMES timeframe, int start_pos, int count, datetime time_array[])",
+   "int CopyTime(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, int count, datetime time_array[])",
+   "int CopyTime(string symbol_name, ENUM_TIMEFRAMES timeframe, datetime start_time, datetime stop_time, datetime time_array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/series/copytime"
+ },
+ {
+  "name": "cos",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathCos(double value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/mathcos"
+ },
+ {
+  "name": "CryptDecode",
+  "section": "Common Functions",
+  "signatures": [
+   "int CryptEncode(ENUM_CRYPT_METHOD method, const uchar& data[], const uchar& key[], uchar& result[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/common/cryptdecode"
+ },
+ {
+  "name": "CryptEncode",
+  "section": "Common Functions",
+  "signatures": [
+   "int CryptEncode(ENUM_CRYPT_METHOD method, const uchar& data[], const uchar& key[], uchar& result[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/common/cryptencode"
+ },
+ {
+  "name": "CustomSymbolCreate",
+  "section": "Custom Symbols",
+  "signatures": [
+   "bool CustomSymbolCreate(const string symbol_name, const string symbol_path=\"\", const string symbol_origin=NULL)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customsymbolcreate"
+ },
+ {
+  "name": "CustomSymbolDelete",
+  "section": "Custom Symbols",
+  "signatures": [
+   "bool CustomSymbolDelete(const string symbol_name)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customsymboldelete"
+ },
+ {
+  "name": "CustomSymbolSetInteger",
+  "section": "Custom Symbols",
+  "signatures": [
+   "bool CustomSymbolSetInteger(const string symbol_name, ENUM_SYMBOL_INFO_INTEGER property_id, long property_value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customsymbolsetinteger"
+ },
+ {
+  "name": "CustomSymbolSetDouble",
+  "section": "Custom Symbols",
+  "signatures": [
+   "bool CustomSymbolSetDouble(const string symbol_name, ENUM_SYMBOL_INFO_DOUBLE property_id, double property_value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customsymbolsetdouble"
+ },
+ {
+  "name": "CustomSymbolSetString",
+  "section": "Custom Symbols",
+  "signatures": [
+   "bool CustomSymbolSetString(const string symbol_name, ENUM_SYMBOL_INFO_STRING property_id, string property_value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customsymbolsetstring"
+ },
+ {
+  "name": "CustomSymbolSetMarginRate",
+  "section": "Custom Symbols",
+  "signatures": [
+   "bool CustomSymbolSetMarginRate(const string symbol_name, ENUM_ORDER_TYPE order_type, double initial_margin_rate, double maintenance_margin_rate)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customsymbolsetmarginrate"
+ },
+ {
+  "name": "CustomSymbolSetSessionQuote",
+  "section": "Custom Symbols",
+  "signatures": [
+   "bool CustomSymbolSetSessionQuote(const string symbol_name, ENUM_DAY_OF_WEEK day_of_week, uint session_index, datetime from, datetime to)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customsymbolsetsessionquote"
+ },
+ {
+  "name": "CustomSymbolSetSessionTrade",
+  "section": "Custom Symbols",
+  "signatures": [
+   "bool CustomSymbolSetSessionTrade(const string symbol_name, ENUM_DAY_OF_WEEK day_of_week, uint session_index, datetime from, datetime to)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customsymbolsetsessiontrade"
+ },
+ {
+  "name": "CustomRatesDelete",
+  "section": "Custom Symbols",
+  "signatures": [
+   "int CustomRatesDelete(const string symbol, datetime from, datetime to)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customratesdelete"
+ },
+ {
+  "name": "CustomRatesReplace",
+  "section": "Custom Symbols",
+  "signatures": [
+   "int CustomRatesReplace(const string symbol, datetime from, datetime to, const MqlRates& rates[], uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customratesreplace"
+ },
+ {
+  "name": "CustomRatesUpdate",
+  "section": "Custom Symbols",
+  "signatures": [
+   "int CustomRatesUpdate(const string symbol, const MqlRates& rates[], uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customratesupdate"
+ },
+ {
+  "name": "CustomTicksAdd",
+  "section": "Custom Symbols",
+  "signatures": [
+   "int CustomTicksAdd(const string symbol, const MqlTick& ticks[], uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customticksadd"
+ },
+ {
+  "name": "CustomTicksDelete",
+  "section": "Custom Symbols",
+  "signatures": [
+   "int CustomTicksDelete(const string symbol, long from_msc, long to_msc)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customticksdelete"
+ },
+ {
+  "name": "CustomTicksReplace",
+  "section": "Custom Symbols",
+  "signatures": [
+   "int CustomTicksReplace(const string symbol, long from_msc, long to_msc, const MqlTick& ticks[], uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/customticksreplace"
+ },
+ {
+  "name": "CustomBookAdd",
+  "section": "Custom Symbols",
+  "signatures": [
+   "bool CustomBookAdd(const string symbol, const MqlBookInfo& books[] uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/customsymbols/custombookadd"
+ },
+ {
+  "name": "DatabaseOpen",
+  "section": "Working with databases",
+  "signatures": [
+   "int DatabaseOpen(string filename, uint flags)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databaseopen"
+ },
+ {
+  "name": "DatabaseClose",
+  "section": "Working with databases",
+  "signatures": [
+   "void DatabaseClose(int database)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databaseclose"
+ },
+ {
+  "name": "DatabaseImport",
+  "section": "Working with databases",
+  "signatures": [
+   "long DatabaseImport(int database, const string table, const string filename, uint flags, const string separator, ulong skip_rows, const string skip_comments)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databaseimport"
+ },
+ {
+  "name": "DatabaseExport",
+  "section": "Working with databases",
+  "signatures": [
+   "long DatabaseExport(int database, const string table_or_sql, const string filename, uint flags, const string separator)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databaseexport"
+ },
+ {
+  "name": "DatabasePrint",
+  "section": "Working with databases",
+  "signatures": [
+   "long DatabasePrint(int database, const string table_or_sql, uint flags)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databaseprint"
+ },
+ {
+  "name": "DatabaseTableExists",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseTableExists(int database, string table)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasetableexists"
+ },
+ {
+  "name": "DatabaseExecute",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseExecute(int database, string sql)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databaseexecute"
+ },
+ {
+  "name": "DatabasePrepare",
+  "section": "Working with databases",
+  "signatures": [
+   "int DatabasePrepare(int database, string sql, ...)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databaseprepare"
+ },
+ {
+  "name": "DatabaseReset",
+  "section": "Working with databases",
+  "signatures": [
+   "int DatabaseReset(int request)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasereset"
+ },
+ {
+  "name": "DatabaseBind",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseBind(int request, int index, T value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasebind"
+ },
+ {
+  "name": "DatabaseBindArray",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseBind(int request, int index, T& array[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasebindarray"
+ },
+ {
+  "name": "DatabaseRead",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseRead(int request)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databaseread"
+ },
+ {
+  "name": "DatabaseReadBind",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseReadBind(int request, void& struct_object)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasereadbind"
+ },
+ {
+  "name": "DatabaseFinalize",
+  "section": "Working with databases",
+  "signatures": [
+   "void DatabaseFinalize(int request)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasefinalize"
+ },
+ {
+  "name": "DatabaseTransactionBegin",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseTransactionBegin(int database)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasetransactionbegin"
+ },
+ {
+  "name": "DatabaseTransactionCommit",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseTransactionCommit(int database)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasetransactioncommit"
+ },
+ {
+  "name": "DatabaseTransactionRollback",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseTransactionRollback(int database)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasetransactionrollback"
+ },
+ {
+  "name": "DatabaseColumnsCount",
+  "section": "Working with databases",
+  "signatures": [
+   "int DatabaseColumnsCount(int request)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasecolumnscount"
+ },
+ {
+  "name": "DatabaseColumnName",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseColumnName(int request, int column, string& name)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasecolumnname"
+ },
+ {
+  "name": "DatabaseColumnType",
+  "section": "Working with databases",
+  "signatures": [
+   "ENUM_DATABASE_FIELD_TYPE DatabaseColumnType(int request, int column)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasecolumntype"
+ },
+ {
+  "name": "DatabaseColumnSize",
+  "section": "Working with databases",
+  "signatures": [
+   "int DatabaseColumnSize(int request, int column)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasecolumnsize"
+ },
+ {
+  "name": "DatabaseColumnText",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseColumnText(int request, int column, string& value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasecolumntext"
+ },
+ {
+  "name": "DatabaseColumnInteger",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseColumnInteger(int request, int column, int& value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasecolumninteger"
+ },
+ {
+  "name": "DatabaseColumnLong",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseColumnLong(int request, int column, long& value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasecolumnlong"
+ },
+ {
+  "name": "DatabaseColumnDouble",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseColumnDouble(int request, int column, double& value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasecolumndouble"
+ },
+ {
+  "name": "DatabaseColumnBlob",
+  "section": "Working with databases",
+  "signatures": [
+   "bool DatabaseColumnBlob(int request, int column, void& data[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/database/databasecolumnblob"
+ },
+ {
+  "name": "DebugBreak",
+  "section": "Common Functions",
+  "signatures": [
+   "void DebugBreak()"
+  ],
+  "url": "https://www.mql5.com/en/docs/common/debugbreak"
+ },
+ {
+  "name": "Digits",
+  "section": "Checkup",
+  "signatures": [
+   "int Digits()"
+  ],
+  "url": "https://www.mql5.com/en/docs/check/digits"
+ },
+ {
+  "name": "DoubleToString",
+  "section": "Conversion Functions",
+  "signatures": [
+   "string DoubleToString(double value, int digits=8)"
+  ],
+  "url": "https://www.mql5.com/en/docs/convert/doubletostring"
+ },
+ {
+  "name": "DXContextCreate",
+  "section": "Working with DirectX",
+  "signatures": [
+   "int DXContextCreate(uint width, uint height)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxcontextcreate"
+ },
+ {
+  "name": "DXContextSetSize",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXContextSetSize(int context, uint& width, uint& height)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxcontextsetsize"
+ },
+ {
+  "name": "DXContextSetSize",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXContextSetSize(int context, uint& width, uint& height)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxcontextsetsize"
+ },
+ {
+  "name": "DXContextClearColors",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXContextClearColors(int context, const DXVector& color)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxcontextclearcolors"
+ },
+ {
+  "name": "DXContextClearDepth",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXContextClearDepth(int context)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxcontextcleardepth"
+ },
+ {
+  "name": "DXContextGetColors",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXContextGetColors(int context, uint& image[], int image_width=WHOLE_ARRAY, int image_height=WHOLE_ARRAY, int image_offset_x=0, int image_offset_y=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxcontextgetcolors"
+ },
+ {
+  "name": "DXContextGetDepth",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXContextGetDepth(int context, float& image[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxcontextgetdepth"
+ },
+ {
+  "name": "DXBufferCreate",
+  "section": "Working with DirectX",
+  "signatures": [
+   "int DXBufferCreate(int context, ENUM_DX_BUFFER_TYPE buffer_type, const void& data[], uint start=0, uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxbuffercreate"
+ },
+ {
+  "name": "DXTextureCreate",
+  "section": "Working with DirectX",
+  "signatures": [
+   "int DXTextureCreate(int context, ENUM_DX_FORMAT format, uint width, uint height, const void& data[], uint data_x, uint data_y, uint data_width, uint data_height)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxtexturecreate"
+ },
+ {
+  "name": "DXInputCreate",
+  "section": "Working with DirectX",
+  "signatures": [
+   "int DXInputCreate(int context, uint input_size)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxinputcreate"
+ },
+ {
+  "name": "DXInputSet",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXInputSet(int input, const void& data)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxinputset"
+ },
+ {
+  "name": "DXShaderCreate",
+  "section": "Working with DirectX",
+  "signatures": [
+   "int DXShaderCreate(int context, ENUM_DX_SHADER_TYPE shader_type, const string source, const string entry_point, string& compile_error)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxshadercreate"
+ },
+ {
+  "name": "DXShaderSetLayout",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXShaderSetLayout(int shader, const DXVertexLayout& layout[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxshadersetlayout"
+ },
+ {
+  "name": "DXShaderInputsSet",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXShaderInputsSet(int shader, const int& inputs[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxshaderinputsset"
+ },
+ {
+  "name": "DXShaderTexturesSet",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXShaderTexturesSet(int shader, const int& textures[])"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxshadertexturesset"
+ },
+ {
+  "name": "DXDraw",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXDraw(int context, uint start=0, uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxdraw"
+ },
+ {
+  "name": "DXDrawIndexed",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXDrawIndexed(int context, uint start=0, uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxdrawindexed"
+ },
+ {
+  "name": "DXPrimiveTopologySet",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXPrimiveTopologySet(int context, ENUM_DX_PRIMITIVE_TOPOLOGY primitive_topology)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxprimivetopologyset"
+ },
+ {
+  "name": "DXBufferSet",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXBufferSet(int context, int buffer, uint start=0, uint count=WHOLE_ARRAY)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxbufferset"
+ },
+ {
+  "name": "DXShaderSet",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXShaderSet(int context, int shader)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxshaderset"
+ },
+ {
+  "name": "DXHandleType",
+  "section": "Working with DirectX",
+  "signatures": [
+   "ENUM_DX_HANDLE_TYPE DXHandleType(int handle)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxhandletype"
+ },
+ {
+  "name": "DXRelease",
+  "section": "Working with DirectX",
+  "signatures": [
+   "bool DXRelease(int handle)"
+  ],
+  "url": "https://www.mql5.com/en/docs/directx/dxrelease"
+ },
+ {
+  "name": "EnumToString",
+  "section": "Conversion Functions",
+  "signatures": [
+   "string EnumToString(any_enum value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/convert/enumtostring"
+ },
+ {
+  "name": "EventChartCustom",
+  "section": "Working with Events",
+  "signatures": [
+   "bool EventChartCustom(long chart_id, ushort custom_event_id, long lparam, double dparam, string sparam)"
+  ],
+  "url": "https://www.mql5.com/en/docs/eventfunctions/eventchartcustom"
+ },
+ {
+  "name": "EventKillTimer",
+  "section": "Working with Events",
+  "signatures": [
+   "void EventKillTimer()"
+  ],
+  "url": "https://www.mql5.com/en/docs/eventfunctions/eventkilltimer"
+ },
+ {
+  "name": "EventSetMillisecondTimer",
+  "section": "Working with Events",
+  "signatures": [
+   "bool EventSetMillisecondTimer(int milliseconds)"
+  ],
+  "url": "https://www.mql5.com/en/docs/eventfunctions/eventsetmillisecondtimer"
+ },
+ {
+  "name": "EventSetTimer",
+  "section": "Working with Events",
+  "signatures": [
+   "bool EventSetTimer(int seconds)"
+  ],
+  "url": "https://www.mql5.com/en/docs/eventfunctions/eventsettimer"
+ },
+ {
+  "name": "exp",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathExp(double value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/mathexp"
+ },
+ {
+  "name": "ExpertRemove",
+  "section": "Common Functions",
+  "signatures": [
+   "void ExpertRemove()"
+  ],
+  "url": "https://www.mql5.com/en/docs/common/expertremove"
+ },
+ {
+  "name": "fabs",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathAbs(double value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/mathabs"
+ },
+ {
+  "name": "FileClose",
+  "section": "File Functions",
+  "signatures": [
+   "void FileClose(int file_handle)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/fileclose"
+ },
+ {
+  "name": "FileCopy",
+  "section": "File Functions",
+  "signatures": [
+   "bool FileCopy(const string src_file_name, int common_flag, const string dst_file_name, int mode_flags)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/filecopy"
+ },
+ {
+  "name": "FileDelete",
+  "section": "File Functions",
+  "signatures": [
+   "bool FileDelete(const string file_name, int common_flag=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/filedelete"
+ },
+ {
+  "name": "FileFindClose",
+  "section": "File Functions",
+  "signatures": [
+   "void FileFindClose(long search_handle)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/filefindclose"
+ },
+ {
+  "name": "FileFindFirst",
+  "section": "File Functions",
+  "signatures": [
+   "long FileFindFirst(const string file_filter, string& returned_filename, int common_flag=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/filefindfirst"
+ },
+ {
+  "name": "FileFindNext",
+  "section": "File Functions",
+  "signatures": [
+   "bool FileFindNext(long search_handle, string& returned_filename)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/filefindnext"
+ },
+ {
+  "name": "FileFlush",
+  "section": "File Functions",
+  "signatures": [
+   "void FileFlush(int file_handle)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/fileflush"
+ },
+ {
+  "name": "FileGetInteger",
+  "section": "File Functions",
+  "signatures": [
+   "long FileGetInteger(int file_handle, ENUM_FILE_PROPERTY_INTEGER property_id)",
+   "long FileGetInteger(const string file_name, ENUM_FILE_PROPERTY_INTEGER property_id, bool common_folder=false)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/filegetinteger"
+ },
+ {
+  "name": "FileIsEnding",
+  "section": "File Functions",
+  "signatures": [
+   "bool FileIsEnding(int file_handle)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/fileisending"
+ },
+ {
+  "name": "FileIsExist",
+  "section": "File Functions",
+  "signatures": [
+   "bool FileIsExist(const string file_name, int common_flag=0)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/fileisexist"
+ },
+ {
+  "name": "FileIsLineEnding",
+  "section": "File Functions",
+  "signatures": [
+   "bool FileIsLineEnding(int file_handle)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/fileislineending"
+ },
+ {
+  "name": "FileMove",
+  "section": "File Functions",
+  "signatures": [
+   "bool FileMove(const string src_file_name, int common_flag, const string dst_file_name, int mode_flags)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/filemove"
+ },
+ {
+  "name": "FileOpen",
+  "section": "File Functions",
+  "signatures": [
+   "int FileOpen(string file_name, int open_flags, short delimiter='\\t', uint codepage=CP_ACP)"
+  ],
+  "url": "https://www.mql5.com/en/docs/files/fileopen"
+ },
+ {
+  "name": "FileReadArray",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filereadarray"
+ },
+ {
+  "name": "FileReadBool",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filereadbool"
+ },
+ {
+  "name": "FileReadDatetime",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filereaddatetime"
+ },
+ {
+  "name": "FileReadDouble",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filereaddouble"
+ },
+ {
+  "name": "FileReadFloat",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filereadfloat"
+ },
+ {
+  "name": "FileReadInteger",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filereadinteger"
+ },
+ {
+  "name": "FileReadLong",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filereadlong"
+ },
+ {
+  "name": "FileReadNumber",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filereadnumber"
+ },
+ {
+  "name": "FileReadString",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filereadstring"
+ },
+ {
+  "name": "FileReadStruct",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filereadstruct"
+ },
+ {
+  "name": "FileSeek",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/fileseek"
+ },
+ {
+  "name": "FileSize",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filesize"
+ },
+ {
+  "name": "FileTell",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filetell"
+ },
+ {
+  "name": "FileWrite",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filewrite"
+ },
+ {
+  "name": "FileWriteArray",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filewritearray"
+ },
+ {
+  "name": "FileWriteDouble",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filewritedouble"
+ },
+ {
+  "name": "FileWriteFloat",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filewritefloat"
+ },
+ {
+  "name": "FileWriteInteger",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filewriteinteger"
+ },
+ {
+  "name": "FileWriteLong",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filewritelong"
+ },
+ {
+  "name": "FileWriteString",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filewritestring"
+ },
+ {
+  "name": "FileWriteStruct",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/filewritestruct"
+ },
+ {
+  "name": "floor",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathfloor"
+ },
+ {
+  "name": "fmax",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathmax"
+ },
+ {
+  "name": "fmin",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathmin"
+ },
+ {
+  "name": "fmod",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathmod"
+ },
+ {
+  "name": "FolderClean",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/folderclean"
+ },
+ {
+  "name": "FolderCreate",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/foldercreate"
+ },
+ {
+  "name": "FolderDelete",
+  "section": "File Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/files/folderdelete"
+ },
+ {
+  "name": "FrameAdd",
+  "section": "Working with Optimization Results",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/optimization_frames/frameadd"
+ },
+ {
+  "name": "FrameFilter",
+  "section": "Working with Optimization Results",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/optimization_frames/framefilter"
+ },
+ {
+  "name": "FrameFirst",
+  "section": "Working with Optimization Results",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/optimization_frames/framefirst"
+ },
+ {
+  "name": "FrameInputs",
+  "section": "Working with Optimization Results",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/optimization_frames/frameinputs"
+ },
+ {
+  "name": "FrameNext",
+  "section": "Working with Optimization Results",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/optimization_frames/framenext"
+ },
+ {
+  "name": "GetLastError",
+  "section": "Checkup",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/check/getlasterror"
+ },
+ {
+  "name": "GetPointer",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/getpointer"
+ },
+ {
+  "name": "GetTickCount",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/gettickcount"
+ },
+ {
+  "name": "GlobalVariableCheck",
+  "section": "Global Variables of the Terminal",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/globals/globalvariablecheck"
+ },
+ {
+  "name": "GlobalVariableDel",
+  "section": "Global Variables of the Terminal",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/globals/globalvariabledel"
+ },
+ {
+  "name": "GlobalVariableGet",
+  "section": "Global Variables of the Terminal",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/globals/globalvariableget"
+ },
+ {
+  "name": "GlobalVariableName",
+  "section": "Global Variables of the Terminal",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/globals/globalvariablename"
+ },
+ {
+  "name": "GlobalVariablesDeleteAll",
+  "section": "Global Variables of the Terminal",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/globals/globalvariablesdeleteall"
+ },
+ {
+  "name": "GlobalVariableSet",
+  "section": "Global Variables of the Terminal",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/globals/globalvariableset"
+ },
+ {
+  "name": "GlobalVariableSetOnCondition",
+  "section": "Global Variables of the Terminal",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/globals/globalvariablesetoncondition"
+ },
+ {
+  "name": "GlobalVariablesFlush",
+  "section": "Global Variables of the Terminal",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/globals/globalvariablesflush"
+ },
+ {
+  "name": "GlobalVariablesTotal",
+  "section": "Global Variables of the Terminal",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/globals/globalvariablestotal"
+ },
+ {
+  "name": "GlobalVariableTemp",
+  "section": "Global Variables of the Terminal",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/globals/globalvariabletemp"
+ },
+ {
+  "name": "GlobalVariableTime",
+  "section": "Global Variables of the Terminal",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/globals/globalvariabletime"
+ },
+ {
+  "name": "HistoryDealGetDouble",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historydealgetdouble"
+ },
+ {
+  "name": "HistoryDealGetInteger",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historydealgetinteger"
+ },
+ {
+  "name": "HistoryDealGetString",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historydealgetstring"
+ },
+ {
+  "name": "HistoryDealGetTicket",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historydealgetticket"
+ },
+ {
+  "name": "HistoryDealSelect",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historydealselect"
+ },
+ {
+  "name": "HistoryDealsTotal",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historydealstotal"
+ },
+ {
+  "name": "HistoryOrderGetDouble",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historyordergetdouble"
+ },
+ {
+  "name": "HistoryOrderGetInteger",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historyordergetinteger"
+ },
+ {
+  "name": "HistoryOrderGetString",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historyordergetstring"
+ },
+ {
+  "name": "HistoryOrderGetTicket",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historyordergetticket"
+ },
+ {
+  "name": "HistoryOrderSelect",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historyorderselect"
+ },
+ {
+  "name": "HistoryOrdersTotal",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historyorderstotal"
+ },
+ {
+  "name": "HistorySelect",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historyselect"
+ },
+ {
+  "name": "HistorySelectByPosition",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/historyselectbyposition"
+ },
+ {
+  "name": "iBars",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/ibars"
+ },
+ {
+  "name": "iBarShift",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/ibarshift"
+ },
+ {
+  "name": "iClose",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/iclose"
+ },
+ {
+  "name": "iHigh",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/ihigh"
+ },
+ {
+  "name": "iHighest",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/ihighest"
+ },
+ {
+  "name": "iLow",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/ilow"
+ },
+ {
+  "name": "iLowest",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/ilowest"
+ },
+ {
+  "name": "iOpen",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/iopen"
+ },
+ {
+  "name": "iTime",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/itime"
+ },
+ {
+  "name": "iTickVolume",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/itickvolume"
+ },
+ {
+  "name": "iRealVolume",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/irealvolume"
+ },
+ {
+  "name": "iVolume",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/ivolume"
+ },
+ {
+  "name": "iSpread",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/ispread"
+ },
+ {
+  "name": "iAD",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iad"
+ },
+ {
+  "name": "iADX",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iadx"
+ },
+ {
+  "name": "iADXWilder",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iadxwilder"
+ },
+ {
+  "name": "iAlligator",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/ialligator"
+ },
+ {
+  "name": "iAMA",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iama"
+ },
+ {
+  "name": "iAO",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iao"
+ },
+ {
+  "name": "iATR",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iatr"
+ },
+ {
+  "name": "iBands",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/ibands"
+ },
+ {
+  "name": "iBearsPower",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/ibearspower"
+ },
+ {
+  "name": "iBullsPower",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/ibullspower"
+ },
+ {
+  "name": "iBWMFI",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/ibwmfi"
+ },
+ {
+  "name": "iCCI",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/icci"
+ },
+ {
+  "name": "iChaikin",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/ichaikin"
+ },
+ {
+  "name": "iCustom",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/icustom"
+ },
+ {
+  "name": "iDEMA",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/idema"
+ },
+ {
+  "name": "iDeMarker",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/idemarker"
+ },
+ {
+  "name": "iEnvelopes",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/ienvelopes"
+ },
+ {
+  "name": "iForce",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iforce"
+ },
+ {
+  "name": "iFractals",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/ifractals"
+ },
+ {
+  "name": "iFrAMA",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iframa"
+ },
+ {
+  "name": "iGator",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/igator"
+ },
+ {
+  "name": "iIchimoku",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iichimoku"
+ },
+ {
+  "name": "iMA",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/ima"
+ },
+ {
+  "name": "iMACD",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/imacd"
+ },
+ {
+  "name": "iMFI",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/imfi"
+ },
+ {
+  "name": "iMomentum",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/imomentum"
+ },
+ {
+  "name": "IndicatorCreate",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/indicatorcreate"
+ },
+ {
+  "name": "IndicatorParameters",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/indicatorparameters"
+ },
+ {
+  "name": "IndicatorRelease",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/indicatorrelease"
+ },
+ {
+  "name": "IndicatorSetDouble",
+  "section": "Custom Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/customind/indicatorsetdouble"
+ },
+ {
+  "name": "IndicatorSetInteger",
+  "section": "Custom Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/customind/indicatorsetinteger"
+ },
+ {
+  "name": "IndicatorSetString",
+  "section": "Custom Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/customind/indicatorsetstring"
+ },
+ {
+  "name": "IntegerToString",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/integertostring"
+ },
+ {
+  "name": "iOBV",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iobv"
+ },
+ {
+  "name": "iOsMA",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iosma"
+ },
+ {
+  "name": "iRSI",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/irsi"
+ },
+ {
+  "name": "iRVI",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/irvi"
+ },
+ {
+  "name": "iSAR",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/isar"
+ },
+ {
+  "name": "IsStopped",
+  "section": "Checkup",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/check/isstopped"
+ },
+ {
+  "name": "iStdDev",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/istddev"
+ },
+ {
+  "name": "iStochastic",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/istochastic"
+ },
+ {
+  "name": "iTEMA",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/itema"
+ },
+ {
+  "name": "iTriX",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/itrix"
+ },
+ {
+  "name": "iVIDyA",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/ividya"
+ },
+ {
+  "name": "iVolumes",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/ivolumes"
+ },
+ {
+  "name": "iWPR",
+  "section": "Technical Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/indicators/iwpr"
+ },
+ {
+  "name": "log",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathlog"
+ },
+ {
+  "name": "log10",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathlog10"
+ },
+ {
+  "name": "MarketBookAdd",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/marketbookadd"
+ },
+ {
+  "name": "MarketBookGet",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/marketbookget"
+ },
+ {
+  "name": "MarketBookRelease",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/marketbookrelease"
+ },
+ {
+  "name": "MathAbs",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathAbs(double value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/mathabs"
+ },
+ {
+  "name": "MathArccos",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathArccos(double val)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/matharccos"
+ },
+ {
+  "name": "MathArcsin",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathArcsin(double val)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/matharcsin"
+ },
+ {
+  "name": "MathArctan",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathArctan(double value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/matharctan"
+ },
+ {
+  "name": "MathCeil",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathCeil(double val)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/mathceil"
+ },
+ {
+  "name": "MathCos",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathCos(double value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/mathcos"
+ },
+ {
+  "name": "MathExp",
+  "section": "Math Functions",
+  "signatures": [
+   "double MathExp(double value)"
+  ],
+  "url": "https://www.mql5.com/en/docs/math/mathexp"
+ },
+ {
+  "name": "MathFloor",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathfloor"
+ },
+ {
+  "name": "MathIsValidNumber",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathisvalidnumber"
+ },
+ {
+  "name": "MathLog",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathlog"
+ },
+ {
+  "name": "MathLog10",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathlog10"
+ },
+ {
+  "name": "MathMax",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathmax"
+ },
+ {
+  "name": "MathMin",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathmin"
+ },
+ {
+  "name": "MathMod",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathmod"
+ },
+ {
+  "name": "MathPow",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathpow"
+ },
+ {
+  "name": "MathRand",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathrand"
+ },
+ {
+  "name": "MathRound",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathround"
+ },
+ {
+  "name": "MathSin",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathsin"
+ },
+ {
+  "name": "MathSqrt",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathsqrt"
+ },
+ {
+  "name": "MathSrand",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathsrand"
+ },
+ {
+  "name": "MathTan",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathtan"
+ },
+ {
+  "name": "MessageBox",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/messagebox"
+ },
+ {
+  "name": "MQLInfoInteger",
+  "section": "Checkup",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/check/mqlinfointeger"
+ },
+ {
+  "name": "MQLInfoString",
+  "section": "Checkup",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/check/mqlinfostring"
+ },
+ {
+  "name": "MT5Initialize",
+  "section": "MetaTrader for Python",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/python_metatrader5/mt5initialize_py"
+ },
+ {
+  "name": "MT5Shutdown",
+  "section": "MetaTrader for Python",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/python_metatrader5/mt5shutdown_py"
+ },
+ {
+  "name": "MT5TerminalInfo",
+  "section": "MetaTrader for Python",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/python_metatrader5/mt5terminalinfo_py"
+ },
+ {
+  "name": "MT5Version",
+  "section": "MetaTrader for Python",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/python_metatrader5/mt5version_py"
+ },
+ {
+  "name": "MT5CopyRatesFrom",
+  "section": "MetaTrader for Python",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/python_metatrader5/mt5copyratesfrom_py"
+ },
+ {
+  "name": "MT5CopyRatesFromPos",
+  "section": "MetaTrader for Python",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/python_metatrader5/mt5copyratesfrompos_py"
+ },
+ {
+  "name": "MT5CopyRatesRange",
+  "section": "MetaTrader for Python",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/python_metatrader5/mt5copyratesrange_py"
+ },
+ {
+  "name": "MT5CopyTicksFrom",
+  "section": "MetaTrader for Python",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/python_metatrader5/mt5copyticksfrom_py"
+ },
+ {
+  "name": "MT5CopyTicksRange",
+  "section": "MetaTrader for Python",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/python_metatrader5/mt5copyticksrange_py"
+ },
+ {
+  "name": "NormalizeDouble",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/normalizedouble"
+ },
+ {
+  "name": "ObjectCreate",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectcreate"
+ },
+ {
+  "name": "ObjectDelete",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectdelete"
+ },
+ {
+  "name": "ObjectFind",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectfind"
+ },
+ {
+  "name": "ObjectGetDouble",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectgetdouble"
+ },
+ {
+  "name": "ObjectGetInteger",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectgetinteger"
+ },
+ {
+  "name": "ObjectGetString",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectgetstring"
+ },
+ {
+  "name": "ObjectGetTimeByValue",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectgettimebyvalue"
+ },
+ {
+  "name": "ObjectGetValueByTime",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectgetvaluebytime"
+ },
+ {
+  "name": "ObjectMove",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectmove"
+ },
+ {
+  "name": "ObjectName",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectname"
+ },
+ {
+  "name": "ObjectsDeleteAll",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectdeleteall"
+ },
+ {
+  "name": "ObjectSetDouble",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectsetdouble"
+ },
+ {
+  "name": "ObjectSetInteger",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectsetinteger"
+ },
+ {
+  "name": "ObjectSetString",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectsetstring"
+ },
+ {
+  "name": "ObjectsTotal",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/objectstotal"
+ },
+ {
+  "name": "OnStart",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/onstart"
+ },
+ {
+  "name": "OnInit",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/oninit"
+ },
+ {
+  "name": "OnDeinit",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/ondeinit"
+ },
+ {
+  "name": "OnTick",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/ontick"
+ },
+ {
+  "name": "OnCalculate",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/oncalculate"
+ },
+ {
+  "name": "OnTimer",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/ontimer"
+ },
+ {
+  "name": "OnTrade",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/ontrade"
+ },
+ {
+  "name": "OnTradeTransaction",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/ontradetransaction"
+ },
+ {
+  "name": "OnBookEvent",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/onbookevent"
+ },
+ {
+  "name": "OnChartEvent",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/onchartevent"
+ },
+ {
+  "name": "OnTester",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/ontester"
+ },
+ {
+  "name": "OnTesterInit",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/ontesterinit"
+ },
+ {
+  "name": "OnTesterDeinit",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/ontesterdeinit"
+ },
+ {
+  "name": "OnTesterPass",
+  "section": "Event Handling",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/event_handlers/ontesterpass"
+ },
+ {
+  "name": "OrderCalcMargin",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/ordercalcmargin"
+ },
+ {
+  "name": "OrderCalcProfit",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/ordercalcprofit"
+ },
+ {
+  "name": "OrderCheck",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/ordercheck"
+ },
+ {
+  "name": "OrderGetDouble",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/ordergetdouble"
+ },
+ {
+  "name": "OrderGetInteger",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/ordergetinteger"
+ },
+ {
+  "name": "OrderGetString",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/ordergetstring"
+ },
+ {
+  "name": "OrderGetTicket",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/ordergetticket"
+ },
+ {
+  "name": "OrderSelect",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/orderselect"
+ },
+ {
+  "name": "OrderSend",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/ordersend"
+ },
+ {
+  "name": "OrderSendAsync",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/ordersendasync"
+ },
+ {
+  "name": "OrdersTotal",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/orderstotal"
+ },
+ {
+  "name": "ParameterGetRange",
+  "section": "Working with Optimization Results",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/optimization_frames/parametergetrange"
+ },
+ {
+  "name": "ParameterSetRange",
+  "section": "Working with Optimization Results",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/optimization_frames/parametersetrange"
+ },
+ {
+  "name": "Period",
+  "section": "Checkup",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/check/period"
+ },
+ {
+  "name": "PeriodSeconds",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/periodseconds"
+ },
+ {
+  "name": "PlaySound",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/playsound"
+ },
+ {
+  "name": "PlotIndexGetInteger",
+  "section": "Custom Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/customind/plotindexgetinteger"
+ },
+ {
+  "name": "PlotIndexSetDouble",
+  "section": "Custom Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/customind/plotindexsetdouble"
+ },
+ {
+  "name": "PlotIndexSetInteger",
+  "section": "Custom Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/customind/plotindexsetinteger"
+ },
+ {
+  "name": "PlotIndexSetString",
+  "section": "Custom Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/customind/plotindexsetstring"
+ },
+ {
+  "name": "Point",
+  "section": "Checkup",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/check/point"
+ },
+ {
+  "name": "PositionGetDouble",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/positiongetdouble"
+ },
+ {
+  "name": "PositionGetInteger",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/positiongetinteger"
+ },
+ {
+  "name": "PositionGetString",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/positiongetstring"
+ },
+ {
+  "name": "PositionGetSymbol",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/positiongetsymbol"
+ },
+ {
+  "name": "PositionGetTicket",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/positiongetticket"
+ },
+ {
+  "name": "PositionSelect",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/positionselect"
+ },
+ {
+  "name": "PositionSelectByTicket",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/positionselectbyticket"
+ },
+ {
+  "name": "PositionsTotal",
+  "section": "Trade Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/trading/positionstotal"
+ },
+ {
+  "name": "pow",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathpow"
+ },
+ {
+  "name": "Print",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/print"
+ },
+ {
+  "name": "PrintFormat",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/printformat"
+ },
+ {
+  "name": "rand",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathrand"
+ },
+ {
+  "name": "ResetLastError",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/resetlasterror"
+ },
+ {
+  "name": "ResourceCreate",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/resourcecreate"
+ },
+ {
+  "name": "ResourceFree",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/resourcefree"
+ },
+ {
+  "name": "ResourceReadImage",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/resourcereadimage"
+ },
+ {
+  "name": "ResourceSave",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/resourcesave"
+ },
+ {
+  "name": "round",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathround"
+ },
+ {
+  "name": "SendFTP",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/sendftp"
+ },
+ {
+  "name": "SendMail",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/sendmail"
+ },
+ {
+  "name": "SendNotification",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/sendnotification"
+ },
+ {
+  "name": "SeriesInfoInteger",
+  "section": "Timeseries and Indicators Access",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/series/seriesinfointeger"
+ },
+ {
+  "name": "SetIndexBuffer",
+  "section": "Custom Indicators",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/customind/setindexbuffer"
+ },
+ {
+  "name": "ShortArrayToString",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/shortarraytostring"
+ },
+ {
+  "name": "ShortToString",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/shorttostring"
+ },
+ {
+  "name": "SignalBaseGetDouble",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalbasegetdouble"
+ },
+ {
+  "name": "SignalBaseGetInteger",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalbasegetinteger"
+ },
+ {
+  "name": "SignalBaseGetString",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalbasegetstring"
+ },
+ {
+  "name": "SignalBaseSelect",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalbaseselect"
+ },
+ {
+  "name": "SignalBaseTotal",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalbasetotal"
+ },
+ {
+  "name": "SignalInfoGetDouble",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalinfogetdouble"
+ },
+ {
+  "name": "SignalInfoGetInteger",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalinfogetinteger"
+ },
+ {
+  "name": "SignalInfoGetString",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalinfogetstring"
+ },
+ {
+  "name": "SignalInfoSetDouble",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalinfosetdouble"
+ },
+ {
+  "name": "SignalInfoSetInteger",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalinfosetinteger"
+ },
+ {
+  "name": "SignalSubscribe",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalsubscribe"
+ },
+ {
+  "name": "SignalUnsubscribe",
+  "section": "Trade Signals",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/signals/signalunsubscribe"
+ },
+ {
+  "name": "sin",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathsin"
+ },
+ {
+  "name": "Sleep",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/sleep"
+ },
+ {
+  "name": "SocketCreate",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/socketcreate"
+ },
+ {
+  "name": "SocketClose",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/socketclose"
+ },
+ {
+  "name": "SocketConnect",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/socketconnect"
+ },
+ {
+  "name": "SocketIsConnected",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/socketisconnected"
+ },
+ {
+  "name": "SocketIsReadable",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/socketisreadable"
+ },
+ {
+  "name": "SocketIsWritable",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/socketiswritable"
+ },
+ {
+  "name": "SocketTimeouts",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/sockettimeouts"
+ },
+ {
+  "name": "SocketRead",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/socketread"
+ },
+ {
+  "name": "SocketSend",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/socketsend"
+ },
+ {
+  "name": "SocketTlsHandshake",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/sockettlshandshake"
+ },
+ {
+  "name": "SocketTlsCertificate",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/sockettlscertificate"
+ },
+ {
+  "name": "SocketTlsRead",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/sockettlsread"
+ },
+ {
+  "name": "SocketTlsReadAvailable",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/sockettlsreadavailable"
+ },
+ {
+  "name": "SocketTlsSend",
+  "section": "Network Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/sockettlssend"
+ },
+ {
+  "name": "sqrt",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathsqrt"
+ },
+ {
+  "name": "srand",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathsrand"
+ },
+ {
+  "name": "StringAdd",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringadd"
+ },
+ {
+  "name": "StringBufferLen",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringbufferlen"
+ },
+ {
+  "name": "StringCompare",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringcompare"
+ },
+ {
+  "name": "StringConcatenate",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringconcatenate"
+ },
+ {
+  "name": "StringFill",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringfill"
+ },
+ {
+  "name": "StringFind",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringfind"
+ },
+ {
+  "name": "StringFormat",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/stringformat"
+ },
+ {
+  "name": "StringGetCharacter",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringgetcharacter"
+ },
+ {
+  "name": "StringInit",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringinit"
+ },
+ {
+  "name": "StringLen",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringlen"
+ },
+ {
+  "name": "StringReplace",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringreplace"
+ },
+ {
+  "name": "StringSetCharacter",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringsetcharacter"
+ },
+ {
+  "name": "StringSplit",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringsplit"
+ },
+ {
+  "name": "StringSubstr",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringsubstr"
+ },
+ {
+  "name": "StringToCharArray",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/stringtochararray"
+ },
+ {
+  "name": "StringToColor",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/stringtocolor"
+ },
+ {
+  "name": "StringToDouble",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/stringtodouble"
+ },
+ {
+  "name": "StringToInteger",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/stringtointeger"
+ },
+ {
+  "name": "StringToLower",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringtolower"
+ },
+ {
+  "name": "StringToShortArray",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/stringtoshortarray"
+ },
+ {
+  "name": "StringToTime",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/stringtotime"
+ },
+ {
+  "name": "StringToUpper",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringtoupper"
+ },
+ {
+  "name": "StringTrimLeft",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringtrimleft"
+ },
+ {
+  "name": "StringTrimRight",
+  "section": "String Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/strings/stringtrimright"
+ },
+ {
+  "name": "StructToTime",
+  "section": "Date and Time",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/dateandtime/structtotime"
+ },
+ {
+  "name": "Symbol",
+  "section": "Checkup",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/check/symbol"
+ },
+ {
+  "name": "SymbolInfoDouble",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/symbolinfodouble"
+ },
+ {
+  "name": "SymbolInfoInteger",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/symbolinfointeger"
+ },
+ {
+  "name": "SymbolInfoMarginRate",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/symbolinfomarginrate"
+ },
+ {
+  "name": "SymbolInfoSessionQuote",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/symbolinfosessionquote"
+ },
+ {
+  "name": "SymbolInfoSessionTrade",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/symbolinfosessiontrade"
+ },
+ {
+  "name": "SymbolInfoString",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/symbolinfostring"
+ },
+ {
+  "name": "SymbolInfoTick",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/symbolinfotick"
+ },
+ {
+  "name": "SymbolIsSynchronized",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/symbolissynchronized"
+ },
+ {
+  "name": "SymbolName",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/symbolname"
+ },
+ {
+  "name": "SymbolSelect",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/symbolselect"
+ },
+ {
+  "name": "SymbolsTotal",
+  "section": "Market Info",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/marketinformation/symbolstotal"
+ },
+ {
+  "name": "tan",
+  "section": "Math Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/math/mathtan"
+ },
+ {
+  "name": "TerminalClose",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/terminalclose"
+ },
+ {
+  "name": "TerminalInfoDouble",
+  "section": "Checkup",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/check/terminalinfodouble"
+ },
+ {
+  "name": "TerminalInfoInteger",
+  "section": "Checkup",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/check/terminalinfointeger"
+ },
+ {
+  "name": "TerminalInfoString",
+  "section": "Checkup",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/check/terminalinfostring"
+ },
+ {
+  "name": "TesterStatistics",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/testerstatistics"
+ },
+ {
+  "name": "TextGetSize",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/textgetsize"
+ },
+ {
+  "name": "TextOut",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/textout"
+ },
+ {
+  "name": "TextSetFont",
+  "section": "Object Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/objects/textsetfont"
+ },
+ {
+  "name": "TimeCurrent",
+  "section": "Date and Time",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/dateandtime/timecurrent"
+ },
+ {
+  "name": "TimeDaylightSavings",
+  "section": "Date and Time",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/dateandtime/timedaylightsavings"
+ },
+ {
+  "name": "TimeGMT",
+  "section": "Date and Time",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/dateandtime/timegmt"
+ },
+ {
+  "name": "TimeGMTOffset",
+  "section": "Date and Time",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/dateandtime/timegmtoffset"
+ },
+ {
+  "name": "TimeLocal",
+  "section": "Date and Time",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/dateandtime/timelocal"
+ },
+ {
+  "name": "TimeToString",
+  "section": "Conversion Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/convert/timetostring"
+ },
+ {
+  "name": "TimeToStruct",
+  "section": "Date and Time",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/dateandtime/timetostruct"
+ },
+ {
+  "name": "TimeTradeServer",
+  "section": "Date and Time",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/dateandtime/timetradeserver"
+ },
+ {
+  "name": "UninitializeReason",
+  "section": "Checkup",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/check/uninitializereason"
+ },
+ {
+  "name": "WebRequest",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/network/webrequest"
+ },
+ {
+  "name": "ZeroMemory",
+  "section": "Common Functions",
+  "signatures": [],
+  "url": "https://www.mql5.com/en/docs/common/zeromemory"
+ }
+]

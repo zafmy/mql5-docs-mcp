@@ -1,0 +1,2074 @@
+[
+ {
+  "code": 10004,
+  "constant": "TRADE_RETCODE_REQUOTE",
+  "kind": "trade_retcode",
+  "meaning": "Requote",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10006,
+  "constant": "TRADE_RETCODE_REJECT",
+  "kind": "trade_retcode",
+  "meaning": "Request rejected",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10007,
+  "constant": "TRADE_RETCODE_CANCEL",
+  "kind": "trade_retcode",
+  "meaning": "Request canceled by trader",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10008,
+  "constant": "TRADE_RETCODE_PLACED",
+  "kind": "trade_retcode",
+  "meaning": "Order placed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10009,
+  "constant": "TRADE_RETCODE_DONE",
+  "kind": "trade_retcode",
+  "meaning": "Request completed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10010,
+  "constant": "TRADE_RETCODE_DONE_PARTIAL",
+  "kind": "trade_retcode",
+  "meaning": "Only part of the request was completed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10011,
+  "constant": "TRADE_RETCODE_ERROR",
+  "kind": "trade_retcode",
+  "meaning": "Request processing error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10012,
+  "constant": "TRADE_RETCODE_TIMEOUT",
+  "kind": "trade_retcode",
+  "meaning": "Request canceled by timeout",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10013,
+  "constant": "TRADE_RETCODE_INVALID",
+  "kind": "trade_retcode",
+  "meaning": "Invalid request",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10014,
+  "constant": "TRADE_RETCODE_INVALID_VOLUME",
+  "kind": "trade_retcode",
+  "meaning": "Invalid volume in the request",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10015,
+  "constant": "TRADE_RETCODE_INVALID_PRICE",
+  "kind": "trade_retcode",
+  "meaning": "Invalid price in the request",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10016,
+  "constant": "TRADE_RETCODE_INVALID_STOPS",
+  "kind": "trade_retcode",
+  "meaning": "Invalid stops in the request",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10017,
+  "constant": "TRADE_RETCODE_TRADE_DISABLED",
+  "kind": "trade_retcode",
+  "meaning": "Trade is disabled",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10018,
+  "constant": "TRADE_RETCODE_MARKET_CLOSED",
+  "kind": "trade_retcode",
+  "meaning": "Market is closed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10019,
+  "constant": "TRADE_RETCODE_NO_MONEY",
+  "kind": "trade_retcode",
+  "meaning": "There is not enough money to complete the request",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10020,
+  "constant": "TRADE_RETCODE_PRICE_CHANGED",
+  "kind": "trade_retcode",
+  "meaning": "Prices changed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10021,
+  "constant": "TRADE_RETCODE_PRICE_OFF",
+  "kind": "trade_retcode",
+  "meaning": "There are no quotes to process the request",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10022,
+  "constant": "TRADE_RETCODE_INVALID_EXPIRATION",
+  "kind": "trade_retcode",
+  "meaning": "Invalid order expiration date in the request",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10023,
+  "constant": "TRADE_RETCODE_ORDER_CHANGED",
+  "kind": "trade_retcode",
+  "meaning": "Order state changed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10024,
+  "constant": "TRADE_RETCODE_TOO_MANY_REQUESTS",
+  "kind": "trade_retcode",
+  "meaning": "Too frequent requests",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10025,
+  "constant": "TRADE_RETCODE_NO_CHANGES",
+  "kind": "trade_retcode",
+  "meaning": "No changes in request",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10026,
+  "constant": "TRADE_RETCODE_SERVER_DISABLES_AT",
+  "kind": "trade_retcode",
+  "meaning": "Autotrading disabled by server",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10027,
+  "constant": "TRADE_RETCODE_CLIENT_DISABLES_AT",
+  "kind": "trade_retcode",
+  "meaning": "Autotrading disabled by client terminal",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10028,
+  "constant": "TRADE_RETCODE_LOCKED",
+  "kind": "trade_retcode",
+  "meaning": "Request locked for processing",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10029,
+  "constant": "TRADE_RETCODE_FROZEN",
+  "kind": "trade_retcode",
+  "meaning": "Order or position frozen",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10030,
+  "constant": "TRADE_RETCODE_INVALID_FILL",
+  "kind": "trade_retcode",
+  "meaning": "Invalid order filling type",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10031,
+  "constant": "TRADE_RETCODE_CONNECTION",
+  "kind": "trade_retcode",
+  "meaning": "No connection with the trade server",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10032,
+  "constant": "TRADE_RETCODE_ONLY_REAL",
+  "kind": "trade_retcode",
+  "meaning": "Operation is allowed only for live accounts",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10033,
+  "constant": "TRADE_RETCODE_LIMIT_ORDERS",
+  "kind": "trade_retcode",
+  "meaning": "The number of pending orders has reached the limit",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10034,
+  "constant": "TRADE_RETCODE_LIMIT_VOLUME",
+  "kind": "trade_retcode",
+  "meaning": "The volume of orders and positions for the symbol has reached the limit",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10035,
+  "constant": "TRADE_RETCODE_INVALID_ORDER",
+  "kind": "trade_retcode",
+  "meaning": "Incorrect or prohibited order type",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10036,
+  "constant": "TRADE_RETCODE_POSITION_CLOSED",
+  "kind": "trade_retcode",
+  "meaning": "Position with the specified POSITION_IDENTIFIER has already been closed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10038,
+  "constant": "TRADE_RETCODE_INVALID_CLOSE_VOLUME",
+  "kind": "trade_retcode",
+  "meaning": "A close volume exceeds the current position volume",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10039,
+  "constant": "TRADE_RETCODE_CLOSE_ORDER_EXIST",
+  "kind": "trade_retcode",
+  "meaning": "A close order already exists for a specified position. This may happen when working in the hedging system:\r\n\r\nwhen attempting to close a position with an opposite one, while close orders for the position already exist\r\nwhen attempting to fully or partially close a position if the total volume of the already present close orders and the newly placed one exceeds the current position volume",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10040,
+  "constant": "TRADE_RETCODE_LIMIT_POSITIONS",
+  "kind": "trade_retcode",
+  "meaning": "The number of open positions simultaneously present on an account can be limited by the server settings. After a limit is reached, the server returns the TRADE_RETCODE_LIMIT_POSITIONS error when attempting to place an order. The limitation operates differently depending on the position accounting type:\r\n\r\nNetting — number of open positions is considered. When a limit is reached, the platform does not let placing new orders whose execution may increase the number of open positions. In fact, the platform allows placing orders only for the symbols that already have open positions. The current pending orders are not considered since their execution may lead to changes in the current positions but it cannot increase their number.\r\nHedging — pending orders are considered together with open positions, since a pending order activation always leads to opening a new position. When a limit is reached, the platform does not allow placing both new market orders for opening positions and pending orders.",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10041,
+  "constant": "TRADE_RETCODE_REJECT_CANCEL",
+  "kind": "trade_retcode",
+  "meaning": "The pending order activation request is rejected, the order is canceled",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10042,
+  "constant": "TRADE_RETCODE_LONG_ONLY",
+  "kind": "trade_retcode",
+  "meaning": "The request is rejected, because the \"Only long positions are allowed\" rule is set for the symbol (POSITION_TYPE_BUY)",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10043,
+  "constant": "TRADE_RETCODE_SHORT_ONLY",
+  "kind": "trade_retcode",
+  "meaning": "The request is rejected, because the \"Only short positions are allowed\" rule is set for the symbol (POSITION_TYPE_SELL)",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10044,
+  "constant": "TRADE_RETCODE_CLOSE_ONLY",
+  "kind": "trade_retcode",
+  "meaning": "The request is rejected, because the \"Only position closing is allowed\" rule is set for the symbol",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10045,
+  "constant": "TRADE_RETCODE_FIFO_CLOSE",
+  "kind": "trade_retcode",
+  "meaning": "The request is rejected, because \"Position closing is allowed only by FIFO rule\" flag is set for the trading account (ACCOUNT_FIFO_CLOSE=true)",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 10046,
+  "constant": "TRADE_RETCODE_HEDGE_PROHIBITED",
+  "kind": "trade_retcode",
+  "meaning": "The request is rejected, because the \"Opposite positions on a single symbol are disabled\" rule is set for the trading account. For example, if the account has a Buy position, then a user cannot open a Sell position or place a pending sell order. The rule is only applied to accounts with hedging accounting system (ACCOUNT_MARGIN_MODE=ACCOUNT_MARGIN_MODE_RETAIL_HEDGING).",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/enum_trade_return_codes"
+ },
+ {
+  "code": 0,
+  "constant": "ERR_SUCCESS",
+  "kind": "runtime_error",
+  "meaning": "The operation completed successfully",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4001,
+  "constant": "ERR_INTERNAL_ERROR",
+  "kind": "runtime_error",
+  "meaning": "Unexpected internal error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4002,
+  "constant": "ERR_WRONG_INTERNAL_PARAMETER",
+  "kind": "runtime_error",
+  "meaning": "Wrong parameter in the inner call of the client terminal function",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4003,
+  "constant": "ERR_INVALID_PARAMETER",
+  "kind": "runtime_error",
+  "meaning": "Wrong parameter when calling the system function",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4004,
+  "constant": "ERR_NOT_ENOUGH_MEMORY",
+  "kind": "runtime_error",
+  "meaning": "Not enough memory to perform the system function",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4005,
+  "constant": "ERR_STRUCT_WITHOBJECTS_ORCLASS",
+  "kind": "runtime_error",
+  "meaning": "The structure contains objects of strings and/or dynamic arrays and/or structure of such objects and/or classes",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4006,
+  "constant": "ERR_INVALID_ARRAY",
+  "kind": "runtime_error",
+  "meaning": "Array of a wrong type, wrong size, or a damaged object of a dynamic array",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4007,
+  "constant": "ERR_ARRAY_RESIZE_ERROR",
+  "kind": "runtime_error",
+  "meaning": "Not enough memory for the relocation of an array, or an attempt to change the size of a static array",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4008,
+  "constant": "ERR_STRING_RESIZE_ERROR",
+  "kind": "runtime_error",
+  "meaning": "Not enough memory for the relocation of string",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4009,
+  "constant": "ERR_NOTINITIALIZED_STRING",
+  "kind": "runtime_error",
+  "meaning": "Not initialized string",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4010,
+  "constant": "ERR_INVALID_DATETIME",
+  "kind": "runtime_error",
+  "meaning": "Invalid date and/or time",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4011,
+  "constant": "ERR_ARRAY_BAD_SIZE",
+  "kind": "runtime_error",
+  "meaning": "Total amount of elements in the array cannot exceed 2147483647",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4012,
+  "constant": "ERR_INVALID_POINTER",
+  "kind": "runtime_error",
+  "meaning": "Wrong pointer",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4013,
+  "constant": "ERR_INVALID_POINTER_TYPE",
+  "kind": "runtime_error",
+  "meaning": "Wrong type of pointer",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4014,
+  "constant": "ERR_FUNCTION_NOT_ALLOWED",
+  "kind": "runtime_error",
+  "meaning": "Function is not allowed for call",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4015,
+  "constant": "ERR_RESOURCE_NAME_DUPLICATED",
+  "kind": "runtime_error",
+  "meaning": "The names of the dynamic and the static resource match",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4016,
+  "constant": "ERR_RESOURCE_NOT_FOUND",
+  "kind": "runtime_error",
+  "meaning": "Resource with this name has not been found in EX5",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4017,
+  "constant": "ERR_RESOURCE_UNSUPPORTED_TYPE",
+  "kind": "runtime_error",
+  "meaning": "Unsupported resource type or its size exceeds 16 Mb",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4018,
+  "constant": "ERR_RESOURCE_NAME_IS_TOO_LONG",
+  "kind": "runtime_error",
+  "meaning": "The resource name exceeds 63 characters",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4019,
+  "constant": "ERR_MATH_OVERFLOW",
+  "kind": "runtime_error",
+  "meaning": "Overflow occurred when calculating math function",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4020,
+  "constant": "ERR_SLEEP_ERROR",
+  "kind": "runtime_error",
+  "meaning": "Out of test end date after calling Sleep()",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4022,
+  "constant": "ERR_PROGRAM_STOPPED",
+  "kind": "runtime_error",
+  "meaning": "Test forcibly stopped from the outside. For example, optimization interrupted, visual testing window closed or testing agent stopped",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4023,
+  "constant": "ERR_INVALID_TYPE",
+  "kind": "runtime_error",
+  "meaning": "Invalid type",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4024,
+  "constant": "ERR_INVALID_HANDLE",
+  "kind": "runtime_error",
+  "meaning": "Invalid handle",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4025,
+  "constant": "ERR_TOO_MANY_OBJECTS",
+  "kind": "runtime_error",
+  "meaning": "Object pool filled out",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4101,
+  "constant": "ERR_CHART_WRONG_ID",
+  "kind": "runtime_error",
+  "meaning": "Wrong chart ID",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4102,
+  "constant": "ERR_CHART_NO_REPLY",
+  "kind": "runtime_error",
+  "meaning": "Chart does not respond",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4103,
+  "constant": "ERR_CHART_NOT_FOUND",
+  "kind": "runtime_error",
+  "meaning": "Chart not found",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4104,
+  "constant": "ERR_CHART_NO_EXPERT",
+  "kind": "runtime_error",
+  "meaning": "No Expert Advisor in the chart that could handle the event",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4105,
+  "constant": "ERR_CHART_CANNOT_OPEN",
+  "kind": "runtime_error",
+  "meaning": "Chart opening error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4106,
+  "constant": "ERR_CHART_CANNOT_CHANGE",
+  "kind": "runtime_error",
+  "meaning": "Failed to change chart symbol and period",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4107,
+  "constant": "ERR_CHART_WRONG_PARAMETER",
+  "kind": "runtime_error",
+  "meaning": "Error value of the parameter for the function of working with charts",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4108,
+  "constant": "ERR_CHART_CANNOT_CREATE_TIMER",
+  "kind": "runtime_error",
+  "meaning": "Failed to create timer",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4109,
+  "constant": "ERR_CHART_WRONG_PROPERTY",
+  "kind": "runtime_error",
+  "meaning": "Wrong chart property ID",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4110,
+  "constant": "ERR_CHART_SCREENSHOT_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Error creating screenshots",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4111,
+  "constant": "ERR_CHART_NAVIGATE_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Error navigating through chart",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4112,
+  "constant": "ERR_CHART_TEMPLATE_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Error applying template",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4113,
+  "constant": "ERR_CHART_WINDOW_NOT_FOUND",
+  "kind": "runtime_error",
+  "meaning": "Subwindow containing the indicator was not found",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4114,
+  "constant": "ERR_CHART_INDICATOR_CANNOT_ADD",
+  "kind": "runtime_error",
+  "meaning": "Error adding an indicator to chart",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4115,
+  "constant": "ERR_CHART_INDICATOR_CANNOT_DEL",
+  "kind": "runtime_error",
+  "meaning": "Error deleting an indicator from the chart",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4116,
+  "constant": "ERR_CHART_INDICATOR_NOT_FOUND",
+  "kind": "runtime_error",
+  "meaning": "Indicator not found on the specified chart",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4201,
+  "constant": "ERR_OBJECT_ERROR",
+  "kind": "runtime_error",
+  "meaning": "Error working with a graphical object",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4202,
+  "constant": "ERR_OBJECT_NOT_FOUND",
+  "kind": "runtime_error",
+  "meaning": "Graphical object was not found",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4203,
+  "constant": "ERR_OBJECT_WRONG_PROPERTY",
+  "kind": "runtime_error",
+  "meaning": "Wrong ID of a graphical object property",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4204,
+  "constant": "ERR_OBJECT_GETDATE_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Unable to get date corresponding to the value",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4205,
+  "constant": "ERR_OBJECT_GETVALUE_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Unable to get value corresponding to the date",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4301,
+  "constant": "ERR_MARKET_UNKNOWN_SYMBOL",
+  "kind": "runtime_error",
+  "meaning": "Unknown symbol",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4302,
+  "constant": "ERR_MARKET_NOT_SELECTED",
+  "kind": "runtime_error",
+  "meaning": "Symbol is not selected in MarketWatch",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4303,
+  "constant": "ERR_MARKET_WRONG_PROPERTY",
+  "kind": "runtime_error",
+  "meaning": "Wrong identifier of a symbol property",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4304,
+  "constant": "ERR_MARKET_LASTTIME_UNKNOWN",
+  "kind": "runtime_error",
+  "meaning": "Time of the last tick is not known (no ticks)",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4305,
+  "constant": "ERR_MARKET_SELECT_ERROR",
+  "kind": "runtime_error",
+  "meaning": "Error adding or deleting a symbol in MarketWatch",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4306,
+  "constant": "ERR_MARKET_SELECT_LIMIT",
+  "kind": "runtime_error",
+  "meaning": "Exceeded the limit of selected symbols in MarketWatch",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4307,
+  "constant": "ERR_MARKET_SESSION_INDEX",
+  "kind": "runtime_error",
+  "meaning": "Wrong session ID when calling the SymbolInfoSessionQuote/SymbolInfoSessionTrade function",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4401,
+  "constant": "ERR_HISTORY_NOT_FOUND",
+  "kind": "runtime_error",
+  "meaning": "Requested history not found",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4402,
+  "constant": "ERR_HISTORY_WRONG_PROPERTY",
+  "kind": "runtime_error",
+  "meaning": "Wrong ID of the history property",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4403,
+  "constant": "ERR_HISTORY_TIMEOUT",
+  "kind": "runtime_error",
+  "meaning": "Exceeded history request timeout",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4404,
+  "constant": "ERR_HISTORY_BARS_LIMIT",
+  "kind": "runtime_error",
+  "meaning": "Number of requested bars limited by terminal settings",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4405,
+  "constant": "ERR_HISTORY_LOAD_ERRORS",
+  "kind": "runtime_error",
+  "meaning": "Multiple errors when loading history",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4407,
+  "constant": "ERR_HISTORY_SMALL_BUFFER",
+  "kind": "runtime_error",
+  "meaning": "Receiving array is too small to store all requested data",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4501,
+  "constant": "ERR_GLOBALVARIABLE_NOT_FOUND",
+  "kind": "runtime_error",
+  "meaning": "Global variable of the client terminal is not found",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4502,
+  "constant": "ERR_GLOBALVARIABLE_EXISTS",
+  "kind": "runtime_error",
+  "meaning": "Global variable of the client terminal with the same name already exists",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4503,
+  "constant": "ERR_GLOBALVARIABLE_NOT_MODIFIED",
+  "kind": "runtime_error",
+  "meaning": "Global variables were not modified",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4504,
+  "constant": "ERR_GLOBALVARIABLE_CANNOTREAD",
+  "kind": "runtime_error",
+  "meaning": "Cannot read file with global variable values",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4505,
+  "constant": "ERR_GLOBALVARIABLE_CANNOTWRITE",
+  "kind": "runtime_error",
+  "meaning": "Cannot write file with global variable values",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4510,
+  "constant": "ERR_MAIL_SEND_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Email sending failed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4511,
+  "constant": "ERR_PLAY_SOUND_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Sound playing failed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4512,
+  "constant": "ERR_MQL5_WRONG_PROPERTY",
+  "kind": "runtime_error",
+  "meaning": "Wrong identifier of the program property",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4513,
+  "constant": "ERR_TERMINAL_WRONG_PROPERTY",
+  "kind": "runtime_error",
+  "meaning": "Wrong identifier of the terminal property",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4514,
+  "constant": "ERR_FTP_SEND_FAILED",
+  "kind": "runtime_error",
+  "meaning": "File sending via ftp failed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4515,
+  "constant": "ERR_NOTIFICATION_SEND_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Failed to send a notification",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4516,
+  "constant": "ERR_NOTIFICATION_WRONG_PARAMETER",
+  "kind": "runtime_error",
+  "meaning": "Invalid parameter for sending a notification – an empty string or NULL has been passed to the SendNotification() function",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4517,
+  "constant": "ERR_NOTIFICATION_WRONG_SETTINGS",
+  "kind": "runtime_error",
+  "meaning": "Wrong settings of notifications in the terminal (ID is not specified or permission is not set)",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4518,
+  "constant": "ERR_NOTIFICATION_TOO_FREQUENT",
+  "kind": "runtime_error",
+  "meaning": "Too frequent sending of notifications",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4519,
+  "constant": "ERR_FTP_NOSERVER",
+  "kind": "runtime_error",
+  "meaning": "FTP server is not specified",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4520,
+  "constant": "ERR_FTP_NOLOGIN",
+  "kind": "runtime_error",
+  "meaning": "FTP login is not specified",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4521,
+  "constant": "ERR_FTP_FILE_ERROR",
+  "kind": "runtime_error",
+  "meaning": "File not found in the MQL5\\Files directory to send on FTP server",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4522,
+  "constant": "ERR_FTP_CONNECT_FAILED",
+  "kind": "runtime_error",
+  "meaning": "FTP connection failed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4523,
+  "constant": "ERR_FTP_CHANGEDIR",
+  "kind": "runtime_error",
+  "meaning": "FTP path not found on server",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4601,
+  "constant": "ERR_BUFFERS_NO_MEMORY",
+  "kind": "runtime_error",
+  "meaning": "Not enough memory for the distribution of indicator buffers",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4602,
+  "constant": "ERR_BUFFERS_WRONG_INDEX",
+  "kind": "runtime_error",
+  "meaning": "Wrong indicator buffer index",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4603,
+  "constant": "ERR_CUSTOM_WRONG_PROPERTY",
+  "kind": "runtime_error",
+  "meaning": "Wrong ID of the custom indicator property",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4701,
+  "constant": "ERR_ACCOUNT_WRONG_PROPERTY",
+  "kind": "runtime_error",
+  "meaning": "Wrong account property ID",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4751,
+  "constant": "ERR_TRADE_WRONG_PROPERTY",
+  "kind": "runtime_error",
+  "meaning": "Wrong trade property ID",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4752,
+  "constant": "ERR_TRADE_DISABLED",
+  "kind": "runtime_error",
+  "meaning": "Trading by Expert Advisors prohibited",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4753,
+  "constant": "ERR_TRADE_POSITION_NOT_FOUND",
+  "kind": "runtime_error",
+  "meaning": "Position not found",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4754,
+  "constant": "ERR_TRADE_ORDER_NOT_FOUND",
+  "kind": "runtime_error",
+  "meaning": "Order not found",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4755,
+  "constant": "ERR_TRADE_DEAL_NOT_FOUND",
+  "kind": "runtime_error",
+  "meaning": "Deal not found",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4756,
+  "constant": "ERR_TRADE_SEND_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Trade request sending failed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4758,
+  "constant": "ERR_TRADE_CALC_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Failed to calculate profit or margin",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4801,
+  "constant": "ERR_INDICATOR_UNKNOWN_SYMBOL",
+  "kind": "runtime_error",
+  "meaning": "Unknown symbol",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4802,
+  "constant": "ERR_INDICATOR_CANNOT_CREATE",
+  "kind": "runtime_error",
+  "meaning": "Indicator cannot be created",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4803,
+  "constant": "ERR_INDICATOR_NO_MEMORY",
+  "kind": "runtime_error",
+  "meaning": "Not enough memory to add the indicator",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4804,
+  "constant": "ERR_INDICATOR_CANNOT_APPLY",
+  "kind": "runtime_error",
+  "meaning": "The indicator cannot be applied to another indicator",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4805,
+  "constant": "ERR_INDICATOR_CANNOT_ADD",
+  "kind": "runtime_error",
+  "meaning": "Error applying an indicator to chart",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4806,
+  "constant": "ERR_INDICATOR_DATA_NOT_FOUND",
+  "kind": "runtime_error",
+  "meaning": "Requested data not found",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4807,
+  "constant": "ERR_INDICATOR_WRONG_HANDLE",
+  "kind": "runtime_error",
+  "meaning": "Wrong indicator handle",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4808,
+  "constant": "ERR_INDICATOR_WRONG_PARAMETERS",
+  "kind": "runtime_error",
+  "meaning": "Wrong number of parameters when creating an indicator",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4809,
+  "constant": "ERR_INDICATOR_PARAMETERS_MISSING",
+  "kind": "runtime_error",
+  "meaning": "No parameters when creating an indicator",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4810,
+  "constant": "ERR_INDICATOR_CUSTOM_NAME",
+  "kind": "runtime_error",
+  "meaning": "The first parameter in the array must be the name of the custom indicator",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4811,
+  "constant": "ERR_INDICATOR_PARAMETER_TYPE",
+  "kind": "runtime_error",
+  "meaning": "Invalid parameter type in the array when creating an indicator",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4812,
+  "constant": "ERR_INDICATOR_WRONG_INDEX",
+  "kind": "runtime_error",
+  "meaning": "Wrong index of the requested indicator buffer",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4901,
+  "constant": "ERR_BOOKS_CANNOT_ADD",
+  "kind": "runtime_error",
+  "meaning": "Depth Of Market can not be added",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4902,
+  "constant": "ERR_BOOKS_CANNOT_DELETE",
+  "kind": "runtime_error",
+  "meaning": "Depth Of Market can not be removed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4903,
+  "constant": "ERR_BOOKS_CANNOT_GET",
+  "kind": "runtime_error",
+  "meaning": "The data from Depth Of Market can not be obtained",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 4904,
+  "constant": "ERR_BOOKS_CANNOT_SUBSCRIBE",
+  "kind": "runtime_error",
+  "meaning": "Error in subscribing to receive new data from Depth Of Market",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5001,
+  "constant": "ERR_TOO_MANY_FILES",
+  "kind": "runtime_error",
+  "meaning": "More than 64 files cannot be opened at the same time",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5002,
+  "constant": "ERR_WRONG_FILENAME",
+  "kind": "runtime_error",
+  "meaning": "Invalid file name",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5003,
+  "constant": "ERR_TOO_LONG_FILENAME",
+  "kind": "runtime_error",
+  "meaning": "Too long file name",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5004,
+  "constant": "ERR_CANNOT_OPEN_FILE",
+  "kind": "runtime_error",
+  "meaning": "File opening error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5005,
+  "constant": "ERR_FILE_CACHEBUFFER_ERROR",
+  "kind": "runtime_error",
+  "meaning": "Not enough memory for cache to read",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5006,
+  "constant": "ERR_CANNOT_DELETE_FILE",
+  "kind": "runtime_error",
+  "meaning": "File deleting error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5007,
+  "constant": "ERR_INVALID_FILEHANDLE",
+  "kind": "runtime_error",
+  "meaning": "A file with this handle was closed, or was not opening at all",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5008,
+  "constant": "ERR_WRONG_FILEHANDLE",
+  "kind": "runtime_error",
+  "meaning": "Wrong file handle",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5009,
+  "constant": "ERR_FILE_NOTTOWRITE",
+  "kind": "runtime_error",
+  "meaning": "The file must be opened for writing",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5010,
+  "constant": "ERR_FILE_NOTTOREAD",
+  "kind": "runtime_error",
+  "meaning": "The file must be opened for reading",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5011,
+  "constant": "ERR_FILE_NOTBIN",
+  "kind": "runtime_error",
+  "meaning": "The file must be opened as a binary one",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5012,
+  "constant": "ERR_FILE_NOTTXT",
+  "kind": "runtime_error",
+  "meaning": "The file must be opened as a text",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5013,
+  "constant": "ERR_FILE_NOTTXTORCSV",
+  "kind": "runtime_error",
+  "meaning": "The file must be opened as a text or CSV",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5014,
+  "constant": "ERR_FILE_NOTCSV",
+  "kind": "runtime_error",
+  "meaning": "The file must be opened as CSV",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5015,
+  "constant": "ERR_FILE_READERROR",
+  "kind": "runtime_error",
+  "meaning": "File reading error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5016,
+  "constant": "ERR_FILE_BINSTRINGSIZE",
+  "kind": "runtime_error",
+  "meaning": "String size must be specified, because the file is opened as binary",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5017,
+  "constant": "ERR_INCOMPATIBLE_FILE",
+  "kind": "runtime_error",
+  "meaning": "A text file must be for string arrays, for other arrays - binary",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5018,
+  "constant": "ERR_FILE_IS_DIRECTORY",
+  "kind": "runtime_error",
+  "meaning": "This is not a file, this is a directory",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5019,
+  "constant": "ERR_FILE_NOT_EXIST",
+  "kind": "runtime_error",
+  "meaning": "File does not exist",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5020,
+  "constant": "ERR_FILE_CANNOT_REWRITE",
+  "kind": "runtime_error",
+  "meaning": "File can not be rewritten",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5021,
+  "constant": "ERR_WRONG_DIRECTORYNAME",
+  "kind": "runtime_error",
+  "meaning": "Wrong directory name",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5022,
+  "constant": "ERR_DIRECTORY_NOT_EXIST",
+  "kind": "runtime_error",
+  "meaning": "Directory does not exist",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5023,
+  "constant": "ERR_FILE_ISNOT_DIRECTORY",
+  "kind": "runtime_error",
+  "meaning": "This is a file, not a directory",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5024,
+  "constant": "ERR_CANNOT_DELETE_DIRECTORY",
+  "kind": "runtime_error",
+  "meaning": "The directory cannot be removed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5025,
+  "constant": "ERR_CANNOT_CLEAN_DIRECTORY",
+  "kind": "runtime_error",
+  "meaning": "Failed to clear the directory (probably one or more files are blocked and removal operation failed)",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5026,
+  "constant": "ERR_FILE_WRITEERROR",
+  "kind": "runtime_error",
+  "meaning": "Failed to write a resource to a file",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5027,
+  "constant": "ERR_FILE_ENDOFFILE",
+  "kind": "runtime_error",
+  "meaning": "Unable to read the next piece of data from a CSV file (FileReadString, FileReadNumber, FileReadDatetime, FileReadBool), since the end of file is reached",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5030,
+  "constant": "ERR_NO_STRING_DATE",
+  "kind": "runtime_error",
+  "meaning": "No date in the string",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5031,
+  "constant": "ERR_WRONG_STRING_DATE",
+  "kind": "runtime_error",
+  "meaning": "Wrong date in the string",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5032,
+  "constant": "ERR_WRONG_STRING_TIME",
+  "kind": "runtime_error",
+  "meaning": "Wrong time in the string",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5033,
+  "constant": "ERR_STRING_TIME_ERROR",
+  "kind": "runtime_error",
+  "meaning": "Error converting string to date",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5034,
+  "constant": "ERR_STRING_OUT_OF_MEMORY",
+  "kind": "runtime_error",
+  "meaning": "Not enough memory for the string",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5035,
+  "constant": "ERR_STRING_SMALL_LEN",
+  "kind": "runtime_error",
+  "meaning": "The string length is less than expected",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5036,
+  "constant": "ERR_STRING_TOO_BIGNUMBER",
+  "kind": "runtime_error",
+  "meaning": "Too large number, more than ULONG_MAX",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5037,
+  "constant": "ERR_WRONG_FORMATSTRING",
+  "kind": "runtime_error",
+  "meaning": "Invalid format string",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5038,
+  "constant": "ERR_TOO_MANY_FORMATTERS",
+  "kind": "runtime_error",
+  "meaning": "Amount of format specifiers more than the parameters",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5039,
+  "constant": "ERR_TOO_MANY_PARAMETERS",
+  "kind": "runtime_error",
+  "meaning": "Amount of parameters more than the format specifiers",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5040,
+  "constant": "ERR_WRONG_STRING_PARAMETER",
+  "kind": "runtime_error",
+  "meaning": "Damaged parameter of string type",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5041,
+  "constant": "ERR_STRINGPOS_OUTOFRANGE",
+  "kind": "runtime_error",
+  "meaning": "Position outside the string",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5042,
+  "constant": "ERR_STRING_ZEROADDED",
+  "kind": "runtime_error",
+  "meaning": "0 added to the string end, a useless operation",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5043,
+  "constant": "ERR_STRING_UNKNOWNTYPE",
+  "kind": "runtime_error",
+  "meaning": "Unknown data type when converting to a string",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5044,
+  "constant": "ERR_WRONG_STRING_OBJECT",
+  "kind": "runtime_error",
+  "meaning": "Damaged string object",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5050,
+  "constant": "ERR_INCOMPATIBLE_ARRAYS",
+  "kind": "runtime_error",
+  "meaning": "Copying incompatible arrays. String array can be copied only to a string array, and a numeric array - in numeric array only",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5051,
+  "constant": "ERR_SMALL_ASSERIES_ARRAY",
+  "kind": "runtime_error",
+  "meaning": "The receiving array is declared as AS_SERIES, and it is of insufficient size",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5052,
+  "constant": "ERR_SMALL_ARRAY",
+  "kind": "runtime_error",
+  "meaning": "Too small array, the starting position is outside the array",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5053,
+  "constant": "ERR_ZEROSIZE_ARRAY",
+  "kind": "runtime_error",
+  "meaning": "An array of zero length",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5054,
+  "constant": "ERR_NUMBER_ARRAYS_ONLY",
+  "kind": "runtime_error",
+  "meaning": "Must be a numeric array",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5055,
+  "constant": "ERR_ONEDIM_ARRAYS_ONLY",
+  "kind": "runtime_error",
+  "meaning": "Must be a one-dimensional array",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5056,
+  "constant": "ERR_SERIES_ARRAY",
+  "kind": "runtime_error",
+  "meaning": "Timeseries cannot be used",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5057,
+  "constant": "ERR_DOUBLE_ARRAY_ONLY",
+  "kind": "runtime_error",
+  "meaning": "Must be an array of type double",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5058,
+  "constant": "ERR_FLOAT_ARRAY_ONLY",
+  "kind": "runtime_error",
+  "meaning": "Must be an array of type float",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5059,
+  "constant": "ERR_LONG_ARRAY_ONLY",
+  "kind": "runtime_error",
+  "meaning": "Must be an array of type long",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5060,
+  "constant": "ERR_INT_ARRAY_ONLY",
+  "kind": "runtime_error",
+  "meaning": "Must be an array of type int",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5061,
+  "constant": "ERR_SHORT_ARRAY_ONLY",
+  "kind": "runtime_error",
+  "meaning": "Must be an array of type short",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5062,
+  "constant": "ERR_CHAR_ARRAY_ONLY",
+  "kind": "runtime_error",
+  "meaning": "Must be an array of type char",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5063,
+  "constant": "ERR_STRING_ARRAY_ONLY",
+  "kind": "runtime_error",
+  "meaning": "String array only",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5100,
+  "constant": "ERR_OPENCL_NOT_SUPPORTED",
+  "kind": "runtime_error",
+  "meaning": "OpenCL functions are not supported on this computer",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5101,
+  "constant": "ERR_OPENCL_INTERNAL",
+  "kind": "runtime_error",
+  "meaning": "Internal error occurred when running OpenCL",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5102,
+  "constant": "ERR_OPENCL_INVALID_HANDLE",
+  "kind": "runtime_error",
+  "meaning": "Invalid OpenCL handle",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5103,
+  "constant": "ERR_OPENCL_CONTEXT_CREATE",
+  "kind": "runtime_error",
+  "meaning": "Error creating the OpenCL context",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5104,
+  "constant": "ERR_OPENCL_QUEUE_CREATE",
+  "kind": "runtime_error",
+  "meaning": "Failed to create a run queue in OpenCL",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5105,
+  "constant": "ERR_OPENCL_PROGRAM_CREATE",
+  "kind": "runtime_error",
+  "meaning": "Error occurred when compiling an OpenCL program",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5106,
+  "constant": "ERR_OPENCL_TOO_LONG_KERNEL_NAME",
+  "kind": "runtime_error",
+  "meaning": "Too long kernel name (OpenCL kernel)",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5107,
+  "constant": "ERR_OPENCL_KERNEL_CREATE",
+  "kind": "runtime_error",
+  "meaning": "Error creating an OpenCL kernel",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5108,
+  "constant": "ERR_OPENCL_SET_KERNEL_PARAMETER",
+  "kind": "runtime_error",
+  "meaning": "Error occurred when setting parameters for the OpenCL kernel",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5109,
+  "constant": "ERR_OPENCL_EXECUTE",
+  "kind": "runtime_error",
+  "meaning": "OpenCL program runtime error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5110,
+  "constant": "ERR_OPENCL_WRONG_BUFFER_SIZE",
+  "kind": "runtime_error",
+  "meaning": "Invalid size of the OpenCL buffer",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5111,
+  "constant": "ERR_OPENCL_WRONG_BUFFER_OFFSET",
+  "kind": "runtime_error",
+  "meaning": "Invalid offset in the OpenCL buffer",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5112,
+  "constant": "ERR_OPENCL_BUFFER_CREATE",
+  "kind": "runtime_error",
+  "meaning": "Failed to create an OpenCL buffer",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5113,
+  "constant": "ERR_OPENCL_TOO_MANY_OBJECTS",
+  "kind": "runtime_error",
+  "meaning": "Too many OpenCL objects",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5114,
+  "constant": "ERR_OPENCL_SELECTDEVICE",
+  "kind": "runtime_error",
+  "meaning": "OpenCL device selection error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5120,
+  "constant": "ERR_DATABASE_INTERNAL",
+  "kind": "runtime_error",
+  "meaning": "Internal database error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5121,
+  "constant": "ERR_DATABASE_INVALID_HANDLE",
+  "kind": "runtime_error",
+  "meaning": "Invalid database handle",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5122,
+  "constant": "ERR_DATABASE_TOO_MANY_OBJECTS",
+  "kind": "runtime_error",
+  "meaning": "Exceeded the maximum acceptable number of Database objects",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5123,
+  "constant": "ERR_DATABASE_CONNECT",
+  "kind": "runtime_error",
+  "meaning": "Database connection error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5124,
+  "constant": "ERR_DATABASE_EXECUTE",
+  "kind": "runtime_error",
+  "meaning": "Request execution error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5125,
+  "constant": "ERR_DATABASE_PREPARE",
+  "kind": "runtime_error",
+  "meaning": "Request generation error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5126,
+  "constant": "ERR_DATABASE_NO_MORE_DATA",
+  "kind": "runtime_error",
+  "meaning": "No more data to read",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5127,
+  "constant": "ERR_DATABASE_STEP",
+  "kind": "runtime_error",
+  "meaning": "Failed to move to the next request entry",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5128,
+  "constant": "ERR_DATABASE_NOT_READY",
+  "kind": "runtime_error",
+  "meaning": "Data for reading request results are not ready yet",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5129,
+  "constant": "ERR_DATABASE_BIND_PARAMETERS",
+  "kind": "runtime_error",
+  "meaning": "Failed to auto substitute parameters to an SQL request",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5200,
+  "constant": "ERR_WEBREQUEST_INVALID_ADDRESS",
+  "kind": "runtime_error",
+  "meaning": "Invalid URL",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5201,
+  "constant": "ERR_WEBREQUEST_CONNECT_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Failed to connect to specified URL",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5202,
+  "constant": "ERR_WEBREQUEST_TIMEOUT",
+  "kind": "runtime_error",
+  "meaning": "Timeout exceeded",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5203,
+  "constant": "ERR_WEBREQUEST_REQUEST_FAILED",
+  "kind": "runtime_error",
+  "meaning": "HTTP request failed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5270,
+  "constant": "ERR_NETSOCKET_INVALIDHANDLE",
+  "kind": "runtime_error",
+  "meaning": "Invalid socket handle passed to function",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5271,
+  "constant": "ERR_NETSOCKET_TOO_MANY_OPENED",
+  "kind": "runtime_error",
+  "meaning": "Too many open sockets (max 128)",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5272,
+  "constant": "ERR_NETSOCKET_CANNOT_CONNECT",
+  "kind": "runtime_error",
+  "meaning": "Failed to connect to remote host",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5273,
+  "constant": "ERR_NETSOCKET_IO_ERROR",
+  "kind": "runtime_error",
+  "meaning": "Failed to send/receive data from socket",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5274,
+  "constant": "ERR_NETSOCKET_HANDSHAKE_FAILED",
+  "kind": "runtime_error",
+  "meaning": "Failed to establish secure connection (TLS Handshake)",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5275,
+  "constant": "ERR_NETSOCKET_NO_CERTIFICATE",
+  "kind": "runtime_error",
+  "meaning": "No data on certificate protecting the connection",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5300,
+  "constant": "ERR_NOT_CUSTOM_SYMBOL",
+  "kind": "runtime_error",
+  "meaning": "A custom symbol must be specified",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5301,
+  "constant": "ERR_CUSTOM_SYMBOL_WRONG_NAME",
+  "kind": "runtime_error",
+  "meaning": "The name of the custom symbol is invalid. The symbol name can only contain Latin letters without punctuation, spaces or special characters (may only contain \".\", \"_\", \"&\" and \"#\"). It is not recommended to use characters <, >, :, \", /,\\, |, ?, *.",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5302,
+  "constant": "ERR_CUSTOM_SYMBOL_NAME_LONG",
+  "kind": "runtime_error",
+  "meaning": "The name of the custom symbol is too long. The length of the symbol name must not exceed 32 characters including the ending 0 character",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5303,
+  "constant": "ERR_CUSTOM_SYMBOL_PATH_LONG",
+  "kind": "runtime_error",
+  "meaning": "The path of the custom symbol is too long. The path length should not exceed 128 characters including \"Custom\\\\\", the symbol name, group separators and the ending 0",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5304,
+  "constant": "ERR_CUSTOM_SYMBOL_EXIST",
+  "kind": "runtime_error",
+  "meaning": "A custom symbol with the same name already exists",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5305,
+  "constant": "ERR_CUSTOM_SYMBOL_ERROR",
+  "kind": "runtime_error",
+  "meaning": "Error occurred while creating, deleting or changing the custom symbol",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5306,
+  "constant": "ERR_CUSTOM_SYMBOL_SELECTED",
+  "kind": "runtime_error",
+  "meaning": "You are trying to delete a custom symbol selected in Market Watch",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5307,
+  "constant": "ERR_CUSTOM_SYMBOL_PROPERTY_WRONG",
+  "kind": "runtime_error",
+  "meaning": "An invalid custom symbol property",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5308,
+  "constant": "ERR_CUSTOM_SYMBOL_PARAMETER_ERROR",
+  "kind": "runtime_error",
+  "meaning": "A wrong parameter while setting the property of a custom symbol",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5309,
+  "constant": "ERR_CUSTOM_SYMBOL_PARAMETER_LONG",
+  "kind": "runtime_error",
+  "meaning": "A too long string parameter while setting the property of a custom symbol",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5310,
+  "constant": "ERR_CUSTOM_TICKS_WRONG_ORDER",
+  "kind": "runtime_error",
+  "meaning": "Ticks in the array are not arranged in the order of time",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5400,
+  "constant": "ERR_CALENDAR_MORE_DATA",
+  "kind": "runtime_error",
+  "meaning": "Array size is insufficient for receiving descriptions of all values",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5401,
+  "constant": "ERR_CALENDAR_TIMEOUT",
+  "kind": "runtime_error",
+  "meaning": "Request time limit exceeded",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5402,
+  "constant": "ERR_CALENDAR_NO_DATA",
+  "kind": "runtime_error",
+  "meaning": "Country is not found",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5601,
+  "constant": "ERR_DATABASE_ERROR",
+  "kind": "runtime_error",
+  "meaning": "Generic error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5602,
+  "constant": "ERR_DATABASE_LOGIC",
+  "kind": "runtime_error",
+  "meaning": "SQLite internal logic error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5603,
+  "constant": "ERR_DATABASE_PERM",
+  "kind": "runtime_error",
+  "meaning": "Access denied",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5604,
+  "constant": "ERR_DATABASE_ABORT",
+  "kind": "runtime_error",
+  "meaning": "Callback routine requested abort",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5605,
+  "constant": "ERR_DATABASE_BUSY",
+  "kind": "runtime_error",
+  "meaning": "Database file locked",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5606,
+  "constant": "ERR_DATABASE_LOCKED",
+  "kind": "runtime_error",
+  "meaning": "Database table locked",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5607,
+  "constant": "ERR_DATABASE_NOMEM",
+  "kind": "runtime_error",
+  "meaning": "Insufficient memory for completing operation",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5608,
+  "constant": "ERR_DATABASE_READONLY",
+  "kind": "runtime_error",
+  "meaning": "Attempt to write to readonly database",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5609,
+  "constant": "ERR_DATABASE_INTERRUPT",
+  "kind": "runtime_error",
+  "meaning": "Operation terminated by sqlite3_interrupt()",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5610,
+  "constant": "ERR_DATABASE_IOERR",
+  "kind": "runtime_error",
+  "meaning": "Disk I/O error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5611,
+  "constant": "ERR_DATABASE_CORRUPT",
+  "kind": "runtime_error",
+  "meaning": "Database disk image corrupted",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5612,
+  "constant": "ERR_DATABASE_NOTFOUND",
+  "kind": "runtime_error",
+  "meaning": "Unknown operation code in sqlite3_file_control()",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5613,
+  "constant": "ERR_DATABASE_FULL",
+  "kind": "runtime_error",
+  "meaning": "Insertion failed because database is full",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5614,
+  "constant": "ERR_DATABASE_CANTOPEN",
+  "kind": "runtime_error",
+  "meaning": "Unable to open the database file",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5615,
+  "constant": "ERR_DATABASE_PROTOCOL",
+  "kind": "runtime_error",
+  "meaning": "Database lock protocol error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5616,
+  "constant": "ERR_DATABASE_EMPTY",
+  "kind": "runtime_error",
+  "meaning": "Internal use only",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5617,
+  "constant": "ERR_DATABASE_SCHEMA",
+  "kind": "runtime_error",
+  "meaning": "Database schema changed",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5618,
+  "constant": "ERR_DATABASE_TOOBIG",
+  "kind": "runtime_error",
+  "meaning": "String or BLOB exceeds size limit",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5619,
+  "constant": "ERR_DATABASE_CONSTRAINT",
+  "kind": "runtime_error",
+  "meaning": "Abort due to constraint violation",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5620,
+  "constant": "ERR_DATABASE_MISMATCH",
+  "kind": "runtime_error",
+  "meaning": "Data type mismatch",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5621,
+  "constant": "ERR_DATABASE_MISUSE",
+  "kind": "runtime_error",
+  "meaning": "Library used incorrectly",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5622,
+  "constant": "ERR_DATABASE_NOLFS",
+  "kind": "runtime_error",
+  "meaning": "Uses OS features not supported on host",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5623,
+  "constant": "ERR_DATABASE_AUTH",
+  "kind": "runtime_error",
+  "meaning": "Authorization denied",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5624,
+  "constant": "ERR_DATABASE_FORMAT",
+  "kind": "runtime_error",
+  "meaning": "Not used",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5625,
+  "constant": "ERR_DATABASE_RANGE",
+  "kind": "runtime_error",
+  "meaning": "Bind parameter error, incorrect index",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5626,
+  "constant": "ERR_DATABASE_NOTADB",
+  "kind": "runtime_error",
+  "meaning": "File opened that is not database file",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5700,
+  "constant": "ERR_MATRIX_INTERNAL",
+  "kind": "runtime_error",
+  "meaning": "Internal error of the matrix/vector executing subsystem",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5701,
+  "constant": "ERR_MATRIX_NOT_INITIALIZED",
+  "kind": "runtime_error",
+  "meaning": "Matrix/vector not initialized",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5702,
+  "constant": "ERR_MATRIX_INCONSISTENT",
+  "kind": "runtime_error",
+  "meaning": "Inconsistent size of matrices/vectors in operation",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5703,
+  "constant": "ERR_MATRIX_INVALID_SIZE",
+  "kind": "runtime_error",
+  "meaning": "Invalid matrix/vector size",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5704,
+  "constant": "ERR_MATRIX_INVALID_TYPE",
+  "kind": "runtime_error",
+  "meaning": "Invalid matrix/vector type",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5705,
+  "constant": "ERR_MATRIX_FUNC_NOT_ALLOWED",
+  "kind": "runtime_error",
+  "meaning": "Function not available for this matrix/vector",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5706,
+  "constant": "ERR_MATRIX_CONTAINS_NAN",
+  "kind": "runtime_error",
+  "meaning": "Matrix/vector contains non-numbers (Nan/Inf)",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5707,
+  "constant": "ERR_MATRIX_OPENBLAS",
+  "kind": "runtime_error",
+  "meaning": "Error during execution of an OpenBLAS function",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5708,
+  "constant": "ERR_MATRIX_OPENBLAS_PARAMETER",
+  "kind": "runtime_error",
+  "meaning": "Invalid parameter of an OpenBLAS function",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5800,
+  "constant": "ERR_ONNX_INTERNAL",
+  "kind": "runtime_error",
+  "meaning": "ONNX internal error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5801,
+  "constant": "ERR_ONNX_NOT_INITIALIZED",
+  "kind": "runtime_error",
+  "meaning": "ONNX Runtime API initialization error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5802,
+  "constant": "ERR_ONNX_NOT_SUPPORTED",
+  "kind": "runtime_error",
+  "meaning": "Property or value not supported by MQL5",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5803,
+  "constant": "ERR_ONNX_RUN_FAILED",
+  "kind": "runtime_error",
+  "meaning": "ONNX runtime API run error",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5804,
+  "constant": "ERR_ONNX_INVALID_PARAMETERS_COUNT",
+  "kind": "runtime_error",
+  "meaning": "Invalid number of parameters passed to OnnxRun",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5805,
+  "constant": "ERR_ONNX_INVALID_PARAMETER",
+  "kind": "runtime_error",
+  "meaning": "Invalid parameter value",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5806,
+  "constant": "ERR_ONNX_INVALID_PARAMETER_TYPE",
+  "kind": "runtime_error",
+  "meaning": "Invalid parameter type",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5807,
+  "constant": "ERR_ONNX_INVALID_PARAMETER_SIZE",
+  "kind": "runtime_error",
+  "meaning": "Invalid parameter size",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 5808,
+  "constant": "ERR_ONNX_WRONG_DIMENSION",
+  "kind": "runtime_error",
+  "meaning": "Tensor dimension not set or invalid",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ },
+ {
+  "code": 65536,
+  "constant": "ERR_USER_ERROR_FIRST",
+  "kind": "runtime_error",
+  "meaning": "User defined errors start with this code",
+  "url": "https://www.mql5.com/en/docs/constants/errorswarnings/errorcodes"
+ }
+]

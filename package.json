@@ -1,0 +1,45 @@
+{
+  "name": "mql5-docs-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that gives coding agents real MQL5 function signatures and error-code meanings",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "mql5-docs-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:index": "node scripts/build-index.mjs",
+    "test": "tsc && node --test dist/*.test.js",
+    "prepublishOnly": "npm test",
+    "prepare": "tsc",
+    "build:index:offline": "node scripts/build-index.mjs --cache-only"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zafmy/mql5-docs-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "mql5",
+    "metatrader",
+    "mt5",
+    "claude-code",
+    "ai-agents"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
