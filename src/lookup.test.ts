@@ -21,6 +21,12 @@ test('search ranks exact, then prefix, and caps results', () => {
   assert.deepEqual(search('   '), []);
 });
 
+test('search ignores spaces and underscores in function names', () => {
+  assert.equal(search('copy buffer')[0]?.name, 'CopyBuffer');
+  assert.equal(search('order_send')[0]?.name, 'OrderSend');
+  assert.ok(search('trade functions').length > 0); // section match still uses the spaced query
+});
+
 test('explain_code handles numbers, strings and constants', () => {
   assert.equal(explainCode(10016)[0].constant, 'TRADE_RETCODE_INVALID_STOPS');
   assert.equal(explainCode('4014')[0].constant, 'ERR_FUNCTION_NOT_ALLOWED');

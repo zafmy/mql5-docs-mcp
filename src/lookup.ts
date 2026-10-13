@@ -13,11 +13,13 @@ export const MAX_RESULTS = 10;
 export function search(query: string, limit = MAX_RESULTS): Fn[] {
   const q = query.trim().toLowerCase();
   if (!q) return [];
+  // Names have no spaces or underscores, so "copy buffer" and "order_send" should still match.
+  const qn = q.replace(/[\s_]+/g, '');
   const rank = (f: Fn) => {
     const n = f.name.toLowerCase();
-    if (n === q) return 0;
-    if (n.startsWith(q)) return 1;
-    if (n.includes(q)) return 2;
+    if (n === qn) return 0;
+    if (n.startsWith(qn)) return 1;
+    if (n.includes(qn)) return 2;
     if (f.section.toLowerCase().includes(q)) return 3;
     return 9;
   };
