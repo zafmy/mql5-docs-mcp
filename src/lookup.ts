@@ -32,7 +32,8 @@ export function search(query: string, limit = MAX_RESULTS): Fn[] {
 }
 
 export function getFunction(name: string): Fn | undefined {
-  const n = name.trim().replace(/\(.*$/, '').toLowerCase();
+  // Agents paste call syntax ("OrderSend (req, res)") or snake_case; names have neither spaces nor underscores.
+  const n = name.replace(/\(.*$/s, '').replace(/[\s_]+/g, '').toLowerCase();
   return functions.find((f) => f.name.toLowerCase() === n);
 }
 
