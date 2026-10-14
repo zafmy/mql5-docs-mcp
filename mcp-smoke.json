@@ -1,0 +1,12 @@
+{
+  "cases": [
+    { "tool": "get_signature", "args": { "name": "CopyBuffer" }, "expect": "int CopyBuffer(" },
+    { "tool": "get_signature", "args": { "name": "OrderSend (request, result)" }, "expect": "OrderSend (Trade Functions)" },
+    { "tool": "get_signature", "args": { "name": "OrderSendReliable" }, "expect": "is not an MQL5 built-in function" },
+    { "tool": "search_reference", "args": { "query": "copy buffer" }, "expect": "CopyBuffer (Timeseries and Indicators Access)" },
+    { "tool": "search_reference", "args": { "query": "order_send", "limit": 1 }, "expect": "OrderSend (Trade Functions)" },
+    { "tool": "explain_code", "args": { "code": 10016 }, "expect": "TRADE_RETCODE_INVALID_STOPS" },
+    { "tool": "explain_code", "args": { "code": "4014" }, "expect": "ERR_FUNCTION_NOT_ALLOWED" },
+    { "tool": "search_reference", "args": { "query": "" }, "expectError": true }
+  ]
+}
