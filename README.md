@@ -1,5 +1,7 @@
 # mql5-docs-mcp
 
+[![CI](https://github.com/zafmy/mql5-docs-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/zafmy/mql5-docs-mcp/actions/workflows/ci.yml)
+
 An MCP server that gives coding agents (Claude Code, Cursor, Claude Desktop) the **real** MQL5 function signatures and error-code meanings, so they stop writing MQL4 syntax or inventing functions when they build MetaTrader 5 EAs.
 
 It runs locally over stdio with a prebuilt index. It makes no network calls at runtime and needs no API key.
@@ -51,6 +53,7 @@ Not covered: Standard Library classes (`CTrade` and friends), backtesting, broke
 ```bash
 npm install
 npm test               # builds and runs the tests against the bundled index
+npx -y github:zafmy/mcp-smoke -- node dist/index.js   # smoke-tests the built server with mcp-smoke.json
 npm run build:index    # re-scrapes the reference slowly (4 s/page), resumable via .cache/
 npm run build:index:offline  # rebuilds data/ from .cache/ only, no network
 ```
