@@ -33,3 +33,9 @@ test('explain_code handles numbers, strings and constants', () => {
   assert.equal(explainCode('trade_retcode_done')[0].code, 10009);
   assert.deepEqual(explainCode(1), []);
 });
+
+test('get_signature tolerates spaces, underscores and call syntax', () => {
+  assert.equal(getFunction('OrderSend (request, result)')?.name, 'OrderSend');
+  assert.equal(getFunction('copy_buffer')?.name, 'CopyBuffer');
+  assert.equal(getFunction('CopyBuffer(\n  handle, 0, 0, 1, buf)')?.name, 'CopyBuffer');
+});
